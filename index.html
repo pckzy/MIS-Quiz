@@ -39,13 +39,48 @@
 
         function checkAnswers() {
             let score = 0;
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '';
+
             questions.forEach(q => {
                 const selected = document.querySelector(`input[name="${q.id}"]:checked`);
-                if (selected && selected.value === q.answer) {
-                    score++;
+                const questionDiv = document.querySelector(`input[name="${q.id}"]`).closest('.question');
+
+                const labels = questionDiv.querySelectorAll('label');
+                labels.forEach(label => {
+                    label.classList.remove('correct', 'incorrect');
+                });
+
+                const correctLabel = questionDiv.querySelector(`input[name="${q.id}"][value="${q.answer}"]`).parentElement;
+                correctLabel.classList.add('correct');
+
+                const feedback = document.createElement('div');
+                feedback.className = 'feedback';
+                feedback.style.marginTop = '10px';
+                feedback.style.fontWeight = 'bold';
+
+                if (selected) {
+                    if (selected.value === q.answer) {
+                        score++;
+                        feedback.textContent = '✅ ตอบถูกต้อง';
+                        feedback.style.color = '#007f5f';
+                    } else {
+                        const wrongLabel = selected.parentElement;
+                        wrongLabel.classList.add('incorrect');
+                        feedback.innerHTML = `❌ ตอบผิด — คำตอบที่ถูกคือ: <strong>${q.choices[q.answer]}</strong>`;
+                        feedback.style.color = '#d00000';
+                    }
+                } else {
+                    feedback.innerHTML = `⚠️ ยังไม่ได้เลือกคำตอบ — คำตอบที่ถูกคือ: <strong>${q.choices[q.answer]}</strong>`;
+                    feedback.style.color = '#ff8800';
                 }
+
+                const oldFeedback = questionDiv.querySelector('.feedback');
+                if (oldFeedback) oldFeedback.remove();
+                questionDiv.appendChild(feedback);
             });
-            document.getElementById('result').textContent = `คุณได้คะแนน ${score} จาก ${questions.length} ข้อ`;
+
+            resultDiv.textContent = `ได้คะแนน ${score} จาก ${questions.length} ข้อ`;
         }
     </script>
 

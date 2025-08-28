@@ -33,16 +33,36 @@ h1 {
 }
 
 label {
-    display: block;
-    margin-bottom: 8px;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    padding: 5px;
-    border-radius: 6px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, border 0.2s ease;
+  border: 1px solid transparent;
+  font-size: 16px;
+  position: relative;
+  background-color: #f9f9f9;
 }
 
 label:hover {
-    background: #f1faff;
+  background-color: #e0f7fa;
+}
+
+input[type="radio"] {
+  transform: scale(1.4);
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+label.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+}
+
+label.incorrect {
+  background-color: #f8d7da;
+  border-color: #dc3545;
 }
 
 button {
