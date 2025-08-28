@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Recap MIS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Quiz 1 & 2 (MIS) + คำถามทบทวนบทที่ 5</h1>
+    <form id="quizForm"></form>
+    <button onclick="checkAnswers()">ส่งคำตอบ</button>
+    <div id="result"></div>
+
+    <script>
+        let questions = [];
+
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                renderQuestions();
+            });
+
+        function renderQuestions() {
+            const form = document.getElementById('quizForm');
+            questions.forEach(q => {
+                const div = document.createElement('div');
+                div.className = 'question';
+                div.innerHTML = `<h3>${q.id}. ${q.question}</h3>` +
+                    Object.entries(q.choices).map(([key, val]) =>
+                        `<label><input type="radio" name="${q.id}" value="${key}"> ${val}</label><br>`
+                    ).join('');
+                form.appendChild(div);
+            });
+        }
+
+        function checkAnswers() {
+            let score = 0;
+            questions.forEach(q => {
+                const selected = document.querySelector(`input[name="${q.id}"]:checked`);
+                if (selected && selected.value === q.answer) {
+                    score++;
+                }
+            });
+            document.getElementById('result').textContent = `คุณได้คะแนน ${score} จาก ${questions.length} ข้อ`;
+        }
+    </script>
+
+</body>
+
+</html>

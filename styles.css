@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to right, #1f2020, #3c3c3c);
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.question {
+    margin-bottom: 25px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.question:hover {
+    transform: scale(1.01);
+}
+
+.question h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #1f2020;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+label:hover {
+    background: #f1faff;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #007f5f;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .question {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
