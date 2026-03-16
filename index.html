@@ -1,203 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIS FINAL MOCK</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap"
+    />
     <style>
-        body {
-            font-family: 'Sarabun', sans-serif;
-        }
-        /* Style for the currently active question's navigation button */
-        .nav-active {
-            background-color: #4f46e5; /* blue-600 */
-            color: white;
-            border-color: #4f46e5;
-        }
-        /* Style for CORRECTLY answered questions' navigation buttons */
-        .nav-correct {
-            background-color: #dcfce7; /* green-100 */
-            border-color: #22c55e;   /* green-500 */
-            color: #166534;          /* green-800 */
-        }
-        /* Style for INCORRECTLY answered questions' navigation buttons */
-        .nav-incorrect {
-            background-color: #fee2e2; /* red-100 */
-            border-color: #ef4444;   /* red-500 */
-            color: #991b1b;          /* red-800 */
-        }
+      body {
+        font-family: "Sarabun", sans-serif;
+      }
+      /* Style for the currently active question's navigation button */
+      .nav-active {
+        background-color: #4f46e5; /* blue-600 */
+        color: white;
+        border-color: #4f46e5;
+      }
+      /* Style for CORRECTLY answered questions' navigation buttons */
+      .nav-correct {
+        background-color: #dcfce7; /* green-100 */
+        border-color: #22c55e; /* green-500 */
+        color: #166534; /* green-800 */
+      }
+      /* Style for INCORRECTLY answered questions' navigation buttons */
+      .nav-incorrect {
+        background-color: #fee2e2; /* red-100 */
+        border-color: #ef4444; /* red-500 */
+        color: #991b1b; /* red-800 */
+      }
     </style>
-</head>
-<body class="bg-gray-900 flex items-center justify-center min-h-screen p-4">
+  </head>
+  <body class="bg-gray-900 flex items-center justify-center min-h-screen p-4">
+    <div
+      id="quiz-container"
+      class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg w-full max-w-3xl"
+    >
+      <div class="mb-6">
+        <h3 class="text-md font-bold text-slate-600 mb-2">เลือกข้อ:</h3>
+        <div id="nav-container" class="flex flex-wrap gap-2"></div>
+      </div>
 
-    <div id="quiz-container" class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg w-full max-w-3xl">
-        
-        <div class="mb-6">
-            <h3 class="text-md font-bold text-slate-600 mb-2">เลือกข้อ:</h3>
-            <div id="nav-container" class="flex flex-wrap gap-2"></div>
-        </div>
-        
-        <div id="progress-container" class="mb-4">
-            <h2 id="progress-text" class="text-xl font-bold text-slate-700"></h2>
-            <div id="score-text" class="text-lg text-slate-600"></div>
-        </div>
-        
-        <hr class="my-6">
-        
-        <div id="question-container">
-            <p id="question-text" class="text-2xl font-semibold text-slate-800 mb-6">กำลังโหลดคำถาม...</p>
-            <div id="choices-container" class="grid grid-cols-1 gap-4"></div>
-        </div>
+      <div id="progress-container" class="mb-4">
+        <h2 id="progress-text" class="text-xl font-bold text-slate-700"></h2>
+        <div id="score-text" class="text-lg text-slate-600"></div>
+      </div>
 
-        <div class="mt-8 flex gap-4">
-            <button id="prev-btn" class="w-1/2 bg-slate-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-slate-600 transition-colors duration-300 disabled:bg-slate-300">ก่อนหน้า</button>
-            <button id="next-btn" class="w-1/2 bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300 disabled:bg-slate-300">ข้อถัดไป</button>
-        </div>
+      <hr class="my-6" />
+
+      <div id="question-container">
+        <p
+          id="question-text"
+          class="text-2xl font-semibold text-slate-800 mb-6"
+        >
+          กำลังโหลดคำถาม...
+        </p>
+        <div id="choices-container" class="grid grid-cols-1 gap-4"></div>
+      </div>
+
+      <div class="mt-8 flex gap-4">
+        <button
+          id="prev-btn"
+          class="w-1/2 bg-slate-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-slate-600 transition-colors duration-300 disabled:bg-slate-300"
+        >
+          ก่อนหน้า
+        </button>
+        <button
+          id="next-btn"
+          class="w-1/2 bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300 disabled:bg-slate-300"
+        >
+          ข้อถัดไป
+        </button>
+      </div>
     </div>
 
     <script>
-        const questionText = document.getElementById('question-text');
-        const choicesContainer = document.getElementById('choices-container');
-        const nextBtn = document.getElementById('next-btn');
-        const prevBtn = document.getElementById('prev-btn');
-        const progressText = document.getElementById('progress-text');
-        const scoreText = document.getElementById('score-text');
-        const navContainer = document.getElementById('nav-container');
+      const questionText = document.getElementById("question-text");
+      const choicesContainer = document.getElementById("choices-container");
+      const nextBtn = document.getElementById("next-btn");
+      const prevBtn = document.getElementById("prev-btn");
+      const progressText = document.getElementById("progress-text");
+      const scoreText = document.getElementById("score-text");
+      const navContainer = document.getElementById("nav-container");
 
-        let questions = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
+      let questions = [];
+      let currentQuestionIndex = 0;
+      let score = 0;
 
-        function initializeQuizState() {
-            questions.forEach(q => {
-                q.isAnswered = false;
-                q.userAnswer = null;
-            });
-            score = 0;
+      function initializeQuizState() {
+        questions.forEach((q) => {
+          q.isAnswered = false;
+          q.userAnswer = null;
+        });
+        score = 0;
+      }
+
+      function createNavigation() {
+        navContainer.innerHTML = "";
+        questions.forEach((_, index) => {
+          const navBtn = document.createElement("button");
+          navBtn.textContent = index + 1;
+          navBtn.dataset.index = index;
+          navBtn.className =
+            "w-10 h-10 flex items-center justify-center font-bold border-2 border-slate-300 rounded-md hover:bg-slate-100 transition-colors";
+          navBtn.addEventListener("click", () => jumpToQuestion(index));
+          navContainer.appendChild(navBtn);
+        });
+      }
+
+      async function loadQuiz() {
+        try {
+          // const response = await fetch("present.json");
+          const response = await fetch("itpm.json");
+          if (!response.ok)
+            throw new Error(`HTTP error! status: ${response.status}`);
+          const allQuestions = await response.json();
+          questions = [].concat.apply([], allQuestions);
+          initializeQuizState();
+          createNavigation();
+          jumpToQuestion(0);
+        } catch (error) {
+          questionText.textContent =
+            "ไม่สามารถโหลดคำถามได้ โปรดตรวจสอบว่ามีไฟล์ final.json อยู่ที่เดียวกับไฟล์ html";
+          console.error("Fetch error:", error);
         }
+      }
 
-        function createNavigation() {
-            navContainer.innerHTML = '';
-            questions.forEach((_, index) => {
-                const navBtn = document.createElement('button');
-                navBtn.textContent = index + 1;
-                navBtn.dataset.index = index;
-                navBtn.className = "w-10 h-10 flex items-center justify-center font-bold border-2 border-slate-300 rounded-md hover:bg-slate-100 transition-colors";
-                navBtn.addEventListener('click', () => jumpToQuestion(index));
-                navContainer.appendChild(navBtn);
-            });
-        }
+      function jumpToQuestion(index) {
+        currentQuestionIndex = index;
+        showQuestion();
+      }
 
-        async function loadQuiz() {
-            try {
-                const response = await fetch('final.json');
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                const allQuestions = await response.json();
-                questions = [].concat.apply([], allQuestions);
-                initializeQuizState();
-                createNavigation();
-                jumpToQuestion(0);
-            } catch (error) {
-                questionText.textContent = 'ไม่สามารถโหลดคำถามได้ โปรดตรวจสอบว่ามีไฟล์ final.json อยู่ที่เดียวกับไฟล์ html';
-                console.error('Fetch error:', error);
+      function showQuestion() {
+        const currentQuestion = questions[currentQuestionIndex];
+        questionText.textContent = `${currentQuestion.category ? `(${currentQuestion.category}):` : ""} ${currentQuestion.question}`;
+        choicesContainer.innerHTML = "";
+
+        // =================================================================
+        // ===== นี่คือส่วนที่อัปเดตเพื่อเปลี่ยนสีปุ่ม "เลือกข้อ" =====
+        // =================================================================
+        Array.from(navContainer.children).forEach((btn, index) => {
+          // เคลียร์ class สีเก่าออกทั้งหมดก่อน
+          btn.classList.remove("nav-active", "nav-correct", "nav-incorrect");
+
+          const question = questions[index];
+
+          // ถ้าข้อนั้นๆ ตอบไปแล้ว
+          if (question.isAnswered) {
+            // ถ้าตอบถูก ให้เป็นสีเขียว
+            if (question.userAnswer === question.answer) {
+              btn.classList.add("nav-correct");
+            } else {
+              // ถ้าตอบผิด ให้เป็นสีแดง
+              btn.classList.add("nav-incorrect");
             }
+          }
+
+          // ถ้าเป็นข้อที่กำลังทำอยู่ ให้เป็นสีน้ำเงิน (สำคัญกว่าสีอื่น)
+          if (index === currentQuestionIndex) {
+            btn.classList.remove("nav-correct", "nav-incorrect");
+            btn.classList.add("nav-active");
+          }
+        });
+
+        for (const key in currentQuestion.choices) {
+          const choice = currentQuestion.choices[key];
+          const button = document.createElement("button");
+          button.innerHTML = `<span class="bg-slate-200 text-slate-700 font-bold w-8 h-8 flex items-center justify-center rounded-md mr-4">${key.toUpperCase()}</span> <span class="text-left flex-1">${choice}</span>`;
+          button.dataset.key = key;
+          button.className =
+            "flex items-center text-lg p-4 border-2 border-slate-200 rounded-lg hover:bg-slate-100 hover:border-blue-400 transition-all duration-300 disabled:cursor-not-allowed";
+          if (!currentQuestion.isAnswered) {
+            button.addEventListener("click", selectAnswer);
+          }
+          choicesContainer.appendChild(button);
         }
 
-        function jumpToQuestion(index) {
-            currentQuestionIndex = index;
-            showQuestion();
+        if (currentQuestion.isAnswered) {
+          showAnswerResult();
         }
+        updateUI();
+      }
 
-        function showQuestion() {
-            const currentQuestion = questions[currentQuestionIndex];
-            questionText.textContent = currentQuestion.question;
-            choicesContainer.innerHTML = '';
+      function selectAnswer(e) {
+        const selectedKey = e.currentTarget.dataset.key;
+        const currentQuestion = questions[currentQuestionIndex];
 
-            // =================================================================
-            // ===== นี่คือส่วนที่อัปเดตเพื่อเปลี่ยนสีปุ่ม "เลือกข้อ" =====
-            // =================================================================
-            Array.from(navContainer.children).forEach((btn, index) => {
-                // เคลียร์ class สีเก่าออกทั้งหมดก่อน
-                btn.classList.remove('nav-active', 'nav-correct', 'nav-incorrect');
-
-                const question = questions[index];
-
-                // ถ้าข้อนั้นๆ ตอบไปแล้ว
-                if (question.isAnswered) {
-                    // ถ้าตอบถูก ให้เป็นสีเขียว
-                    if (question.userAnswer === question.answer) {
-                        btn.classList.add('nav-correct');
-                    } else {
-                        // ถ้าตอบผิด ให้เป็นสีแดง
-                        btn.classList.add('nav-incorrect');
-                    }
-                }
-
-                // ถ้าเป็นข้อที่กำลังทำอยู่ ให้เป็นสีน้ำเงิน (สำคัญกว่าสีอื่น)
-                if (index === currentQuestionIndex) {
-                    btn.classList.remove('nav-correct', 'nav-incorrect');
-                    btn.classList.add('nav-active');
-                }
-            });
-
-            for (const key in currentQuestion.choices) {
-                const choice = currentQuestion.choices[key];
-                const button = document.createElement('button');
-                button.innerHTML = `<span class="bg-slate-200 text-slate-700 font-bold w-8 h-8 flex items-center justify-center rounded-md mr-4">${key.toUpperCase()}</span> <span class="text-left flex-1">${choice}</span>`;
-                button.dataset.key = key;
-                button.className = "flex items-center text-lg p-4 border-2 border-slate-200 rounded-lg hover:bg-slate-100 hover:border-blue-400 transition-all duration-300 disabled:cursor-not-allowed";
-                if (!currentQuestion.isAnswered) {
-                    button.addEventListener('click', selectAnswer);
-                }
-                choicesContainer.appendChild(button);
-            }
-
-            if (currentQuestion.isAnswered) {
-                showAnswerResult();
-            }
-            updateUI();
+        if (!currentQuestion.isAnswered) {
+          if (selectedKey === currentQuestion.answer) {
+            score++;
+          }
         }
-        
-        function selectAnswer(e) {
-            const selectedKey = e.currentTarget.dataset.key;
-            const currentQuestion = questions[currentQuestionIndex];
-            
-            if (!currentQuestion.isAnswered) {
-                if (selectedKey === currentQuestion.answer) {
-                    score++;
-                }
-            }
-            currentQuestion.isAnswered = true;
-            currentQuestion.userAnswer = selectedKey;
-            
-            showAnswerResult();
-            updateUI();
-            
-            // อัปเดตสีปุ่ม nav ทันทีหลังจากตอบ
-            jumpToQuestion(currentQuestionIndex);
-        }
+        currentQuestion.isAnswered = true;
+        currentQuestion.userAnswer = selectedKey;
 
-        function showAnswerResult() {
-             const currentQuestion = questions[currentQuestionIndex];
-             const correctKey = currentQuestion.answer;
-             const userKey = currentQuestion.userAnswer;
-             Array.from(choicesContainer.children).forEach(button => {
-                button.disabled = true;
-                const key = button.dataset.key;
-                if (key === correctKey) {
-                    button.classList.remove('border-slate-200', 'hover:bg-slate-100');
-                    button.classList.add('bg-green-100', 'border-green-500', 'text-green-800');
-                } else if (key === userKey) {
-                    button.classList.remove('border-slate-200', 'hover:bg-slate-100');
-                    button.classList.add('bg-red-100', 'border-red-500', 'text-red-800');
-                }
-             });
-        }
+        showAnswerResult();
+        updateUI();
 
-        function showFinalScore() {
-            document.getElementById('quiz-container').innerHTML = `
+        // อัปเดตสีปุ่ม nav ทันทีหลังจากตอบ
+        jumpToQuestion(currentQuestionIndex);
+      }
+
+      function showAnswerResult() {
+        const currentQuestion = questions[currentQuestionIndex];
+        const correctKey = currentQuestion.answer;
+        const userKey = currentQuestion.userAnswer;
+        Array.from(choicesContainer.children).forEach((button) => {
+          button.disabled = true;
+          const key = button.dataset.key;
+          if (key === correctKey) {
+            button.classList.remove("border-slate-200", "hover:bg-slate-100");
+            button.classList.add(
+              "bg-green-100",
+              "border-green-500",
+              "text-green-800",
+            );
+          } else if (key === userKey) {
+            button.classList.remove("border-slate-200", "hover:bg-slate-100");
+            button.classList.add(
+              "bg-red-100",
+              "border-red-500",
+              "text-red-800",
+            );
+          }
+        });
+      }
+
+      function showFinalScore() {
+        document.getElementById("quiz-container").innerHTML = `
                 <div class="text-center">
                     <h2 class="text-4xl font-bold text-slate-800 mb-4">จบแบบทดสอบ!</h2>
                     <p class="text-2xl text-slate-600">คุณได้คะแนน</p>
@@ -207,31 +239,30 @@
                     </button>
                 </div>
             `;
+      }
+
+      function updateUI() {
+        progressText.textContent = `คำถาม ${currentQuestionIndex + 1} / ${questions.length}`;
+        scoreText.textContent = `คะแนน: ${score}`;
+        prevBtn.disabled = currentQuestionIndex === 0;
+        nextBtn.disabled = currentQuestionIndex === questions.length - 1;
+        if (questions.length > 0 && questions.every((q) => q.isAnswered)) {
+          setTimeout(showFinalScore, 1000);
         }
+      }
 
-        function updateUI() {
-            progressText.textContent = `คำถาม ${currentQuestionIndex + 1} / ${questions.length}`;
-            scoreText.textContent = `คะแนน: ${score}`;
-            prevBtn.disabled = currentQuestionIndex === 0;
-            nextBtn.disabled = currentQuestionIndex === questions.length - 1;
-            if (questions.length > 0 && questions.every(q => q.isAnswered)) {
-                 setTimeout(showFinalScore, 1000); 
-            }
+      prevBtn.addEventListener("click", () => {
+        if (currentQuestionIndex > 0) {
+          jumpToQuestion(currentQuestionIndex - 1);
         }
+      });
+      nextBtn.addEventListener("click", () => {
+        if (currentQuestionIndex < questions.length - 1) {
+          jumpToQuestion(currentQuestionIndex + 1);
+        }
+      });
 
-        prevBtn.addEventListener('click', () => {
-            if (currentQuestionIndex > 0) {
-                jumpToQuestion(currentQuestionIndex - 1);
-            }
-        });
-        nextBtn.addEventListener('click', () => {
-            if (currentQuestionIndex < questions.length - 1) {
-                jumpToQuestion(currentQuestionIndex + 1);
-            }
-        });
-
-        loadQuiz();
+      loadQuiz();
     </script>
-
-</body>
+  </body>
 </html>

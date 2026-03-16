@@ -1,0 +1,1636 @@
+[
+  {
+    "id": "q1",
+    "question": "ตาม PMBOK 6th Edition โครงการ (Project) ถูกนิยามว่าอย่างไร?",
+    "choices": {
+      "a": "กระบวนการต่อเนื่องที่ทำซ้ำได้เพื่อเพิ่มประสิทธิภาพ",
+      "b": "ความริเริ่มที่มีต้นแบบชัดเจนเพื่อสร้างมูลค่าสูงสุด",
+      "c": "กิจกรรมชั่วคราวที่สร้างผลลัพธ์เฉพาะ เช่น ผลิตภัณฑ์หรือบริการ",
+      "d": "ระบบการจัดการงานประจำในองค์กร"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q2",
+    "question": "ข้อใดคือคุณลักษณะของโครงการ (Project Characteristics)?",
+    "choices": {
+      "a": "ทำซ้ำได้ตลอดเวลาและไม่มีจุดสิ้นสุด",
+      "b": "มีความเป็นเอกลักษณ์และมีจุดเริ่มต้น–สิ้นสุด",
+      "c": "มุ่งเน้นเฉพาะงานประจำ",
+      "d": "เกิดขึ้นอย่างต่อเนื่องโดยไม่จำกัดวัตถุประสงค์"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q3",
+    "question": "SMART Objective ในการกำหนดวัตถุประสงค์ของโครงการ ข้อใดถูกต้อง?",
+    "choices": {
+      "a": "Specific - Measurable - Achievable - Realistic - Time-bound",
+      "b": "Special - Maintain - Active - Result - Team",
+      "c": "Strategic - Manage - Actual - Resource - Timeline",
+      "d": "Simple - Multiple - Accurate - Rapid - Task-oriented"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q4",
+    "question": "Project Life Cycle หมายถึงอะไร?",
+    "choices": {
+      "a": "แผนผังแสดงการใช้ทรัพยากรของโครงการ",
+      "b": "การพัฒนาโครงการเฉพาะด้านการเงิน",
+      "c": "ชุดของเฟสที่โครงการดำเนินไปตั้งแต่เริ่มจนเสร็จสิ้น",
+      "d": "ขั้นตอนการประเมินบุคลากรในทีมโปรเจค"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q5",
+    "question": "Waterfall Life Cycle เหมาะกับสถานการณ์ใด?",
+    "choices": {
+      "a": "โครงการที่มีความไม่แน่นอนสูงและเปลี่ยนแปลงตลอดเวลา",
+      "b": "โครงการที่ต้องการปรับฟีเจอร์ได้ตลอดในแต่ละ Sprint",
+      "c": "โครงการที่มี Scope ชัดเจนและต้องการแผนแบบ Predictive",
+      "d": "โครงการที่ทุกส่วนทำงานแบบขนานทั้งหมด"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q6",
+    "question": "Iterative Life Cycle มีจุดเด่นอย่างไร?",
+    "choices": {
+      "a": "ทำงานแบบเสร็จครั้งเดียว ไม่ย้อนกลับ",
+      "b": "เหมาะกับความต้องการชัดเจนทั้งหมดตั้งแต่ต้น",
+      "c": "แก้ไขและพัฒนาเวอร์ชันต้นแบบซ้ำจนเกิดความสมบูรณ์",
+      "d": "เป็นการพัฒนารูปแบบเส้นตรงไม่มีรอบการทำงาน"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q7",
+    "question": "Incremental Life Cycle แตกต่างจาก Iterative อย่างไร?",
+    "choices": {
+      "a": "Incremental เน้นสร้างเป็นชิ้นส่วนย่อยเพิ่มขึ้นตามรอบ",
+      "b": "Incremental ไม่มีการส่งมอบชิ้นงานย่อยระหว่างทาง",
+      "c": "Iterative ไม่สามารถแก้ไขความต้องการได้",
+      "d": "Iterative มุ่งเน้นทำงานให้เสร็จในครั้งเดียว"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q8",
+    "question": "Adaptive/Agile Life Cycle มีลักษณะอย่างไร?",
+    "choices": {
+      "a": "Fixed scope และยืดหยุ่นเรื่องเวลา",
+      "b": "สามารถเปลี่ยนแปลงความต้องการได้ตลอด โดยเวลาคงที่",
+      "c": "พัฒนาครั้งเดียวแบบไม่ทดสอบซ้ำ",
+      "d": "เหมาะเฉพาะโครงการด้านก่อสร้าง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q9",
+    "question": "ตัวอย่างโครงการที่เหมาะกับ Agile?",
+    "choices": {
+      "a": "สร้างสะพานข้ามแม่น้ำ",
+      "b": "ติดตั้งระบบไฟฟ้าอาคาร",
+      "c": "พัฒนาฟีเจอร์ของสมาร์ทโฟนที่เปลี่ยนบ่อย",
+      "d": "สร้างอาคารมหาวิทยาลัย"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q10",
+    "question": "Hybrid Life Cycle คืออะไร?",
+    "choices": {
+      "a": "การรวม Predictive กับ Agile ใช้ตามลักษณะงาน",
+      "b": "การใช้ Agile เท่านั้น",
+      "c": "การใช้ Waterfall เท่านั้น",
+      "d": "การเว้นช่วงการพัฒนาระหว่างเฟส"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q11",
+    "question": "Product Owner ใน Agile มีหน้าที่ข้อใด?",
+    "choices": {
+      "a": "ทดสอบซอฟต์แวร์ทุกชิ้น",
+      "b": "จัดการ Product Backlog และลำดับความสำคัญ",
+      "c": "ควบคุมคุณภาพของ Sprint Review",
+      "d": "วางระบบเครือข่ายของทีม"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q12",
+    "question": "Scrum Master มีหน้าที่หลักใด?",
+    "choices": {
+      "a": "กำหนดฟีเจอร์หลักในระบบ",
+      "b": "พัฒนาโค้ดส่วนสำคัญของผลิตภัณฑ์",
+      "c": "อำนวยความสะดวกให้ทีมทำงานตาม Scrum Framework",
+      "d": "จัดลำดับความสำคัญของ Backlog"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q13",
+    "question": "Team Developer มีหน้าที่อะไรใน Agile?",
+    "choices": {
+      "a": "ตัดสินใจด้านงบประมาณ",
+      "b": "พัฒนา ทดสอบ และแก้ไข Product Increment",
+      "c": "รับรองคุณภาพเอกสาร",
+      "d": "ตรวจประเมิน Agile Maturity"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q14",
+    "question": "Kanban มีลักษณะเด่นอย่างไร?",
+    "choices": {
+      "a": "ใช้ Sprint 1-4 สัปดาห์",
+      "b": "ใช้บอร์ดแสดงสถานะงาน เช่น To Do / Doing / Done",
+      "c": "ไม่เน้น visual control",
+      "d": "เหมาะเฉพาะงานที่ไม่เปลี่ยนแปลง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q15",
+    "question": "Extreme Programming (XP) เน้นสิ่งใด?",
+    "choices": {
+      "a": "ทำงานแบบเส้นตรง",
+      "b": "คู่โปรแกรมมิ่งและทดสอบอย่างต่อเนื่อง",
+      "c": "จำกัดการสื่อสารระหว่างทีม",
+      "d": "ไม่ให้แก้ไขโค้ดระหว่างพัฒนา"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q16",
+    "question": "Lean Software Development เน้นอะไร?",
+    "choices": {
+      "a": "เพิ่มปริมาณงานแม้มีความสูญเสีย",
+      "b": "ลดความสูญเปล่าและเพิ่มประสิทธิภาพ",
+      "c": "ทำงานช้าลงเพื่อความปลอดภัย",
+      "d": "แยกแต่ละส่วนทำงานแบบโดดเดี่ยว"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q17",
+    "question": "ข้อควรระวังของ Agile คืออะไร?",
+    "choices": {
+      "a": "ใช้ทรัพยากรน้อยเสมอ",
+      "b": "ทีมมักต้องทำหลายโปรเจค อาจทำให้สมดุลงานเสีย",
+      "c": "เหมาะกับงานที่ 100% ไม่เปลี่ยนแปลง",
+      "d": "ไม่ต้องใช้ Scrum Master"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q18",
+    "question": "Process Group ใดเป็นเฟสแรกตาม PMBOK?",
+    "choices": {
+      "a": "Executing",
+      "b": "Initiating",
+      "c": "Monitoring & Controlling",
+      "d": "Closing"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q19",
+    "question": "ขั้นตอนใดอยู่ใน Planning Process Group?",
+    "choices": {
+      "a": "นิยามปิดโครงการ",
+      "b": "ติดตามความคืบหน้า",
+      "c": "กำหนด Scope, Schedule, Cost",
+      "d": "ส่งมอบผลลัพธ์ให้ผู้ใช้"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q20",
+    "question": "Monitoring & Controlling มีวัตถุประสงค์หลักคืออะไร?",
+    "choices": {
+      "a": "ทำเอกสารส่งมอบ",
+      "b": "ตรวจสอบและปรับแผนเมื่อเกิดการเบี่ยงเบน",
+      "c": "เริ่มต้นโครงการใหม่",
+      "d": "จัดกิจกรรม Sprint Planning"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q23",
+    "question": "การใช้ Predictive + Agile ในส่วนงานต่างกัน คือโมเดลอะไร?",
+    "choices": {
+      "a": "XP",
+      "b": "Hybrid",
+      "c": "Waterfall",
+      "d": "Lean"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q24",
+    "question": "ข้อใดเป็นตัวอย่าง 'Temporary' ของโครงการ?",
+    "choices": {
+      "a": "ดำเนินงานประจำร้านอาหาร",
+      "b": "การทำสวนดอกไม้ภายในช่วงเวลาโครงการ",
+      "c": "งานซ่อมบำรุงประจำปี",
+      "d": "กิจกรรมขายของออนไลน์ต่อเนื่อง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q25",
+    "question": "ข้อใดเป็นสิ่งที่ PMBOK เน้นในนิยามเวอร์ชันใหม่ (2025/2026)?",
+    "choices": {
+      "a": "เน้นส่งมอบเอกสารเป็นหลัก",
+      "b": "เน้นผลลัพธ์ที่สร้างคุณค่า (Value) ไม่ใช่แค่ Deliverables",
+      "c": "ลดความสำคัญของการวัดผล",
+      "d": "ทำงานเฉพาะงานประจำ"
+    },
+    "answer": "b"
+  },
+  
+{
+    "id": "q26",
+    "question": "Integration Management ใน PM Knowledge Areas มีหน้าที่หลักคืออะไร?",
+    "choices": {
+      "a": "กำหนดการซื้อจัดจ้างจากภายนอก",
+      "b": "ระบุและประสานงานทุกกระบวนการ PM ให้ทำงานสอดประสานกัน",
+      "c": "ควบคุมคุณภาพผลลัพธ์ให้เป็นไปตามข้อกำหนด",
+      "d": "วิเคราะห์ความเสี่ยงของโครงการในทุกเฟส"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q27",
+    "question": "ใน Scope Management กระบวนการใดใช้ยืนยันว่างานที่ส่งมอบตรงตามที่ผู้มีส่วนได้ส่วนเสียคาดหวัง?",
+    "choices": {
+      "a": "Validate Scope",
+      "b": "Define Scope",
+      "c": "Create WBS",
+      "d": "Control Scope"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q28",
+    "question": "ข้อใดเป็นกิจกรรมใน Schedule Management?",
+    "choices": {
+      "a": "Estimate Activity Durations",
+      "b": "Estimate Costs",
+      "c": "Identify Stakeholders",
+      "d": "Control Procurement"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q29",
+    "question": "กิจกรรมใดอยู่ใน Cost Management?",
+    "choices": {
+      "a": "Plan Quality Management",
+      "b": "Estimate Costs",
+      "c": "Sequence Activities",
+      "d": "Manage Team"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q30",
+    "question": "Quality Management มีหน้าที่ใดตาม PMBOK?",
+    "choices": {
+      "a": "จัดทำเอกสารสรุปบทเรียน",
+      "b": "คาดการณ์งบประมาณ",
+      "c": "กำกับคุณภาพของงานและกระบวนการ",
+      "d": "คัดเลือก Supplier"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q31",
+    "question": "ใน Resource Management กระบวนการใดเกี่ยวข้องกับการสร้างทีม?",
+    "choices": {
+      "a": "Develop Team",
+      "b": "Monitor Communications",
+      "c": "Validate Scope",
+      "d": "Identify Risks"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q32",
+    "question": "Communications Management มุ่งเน้นเรื่องใด?",
+    "choices": {
+      "a": "จัดการการสื่อสารให้ตอบสนองผู้มีส่วนเกี่ยวข้อง",
+      "b": "ระบุลำดับกิจกรรมโครงการ",
+      "c": "ดูแลกระบวนการจัดซื้อจัดจ้าง",
+      "d": "ปรับปรุงคุณภาพผลิตภัณฑ์"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q33",
+    "question": "ข้อใดเป็นงานใน Risk Management?",
+    "choices": {
+      "a": "Identify Risks",
+      "b": "Control Schedule",
+      "c": "Plan Procurement",
+      "d": "Manage Communications"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q34",
+    "question": "Procurement Management เกี่ยวข้องกับอะไร?",
+    "choices": {
+      "a": "การจัดการข้อมูลโครงการให้ครบถ้วน",
+      "b": "การจัดซื้อจัดจ้างผลิตภัณฑ์หรือบริการจากภายนอก",
+      "c": "การสื่อสารผลการดำเนินงาน",
+      "d": "การวิเคราะห์ความต้องการของผู้ใช้"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q35",
+    "question": "Stakeholder Management เน้นเรื่องใด?",
+    "choices": {
+      "a": "คำนวณต้นทุนรวมของโครงการ",
+      "b": "ระบุผู้มีส่วนได้ส่วนเสียและจัดการความคาดหวัง",
+      "c": "จัดทำแผนกำหนดการ",
+      "d": "ควบคุมงานจัดซื้อ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q36",
+    "question": "Initiating Process Group ขั้นตอนเริ่มต้นต้องทำอะไรเป็นอย่างแรก?",
+    "choices": {
+      "a": "Set Goals – Resource – Time – Cost",
+      "b": "รวบรวมข้อมูล requirement",
+      "c": "Request/เสนอโปรเจคเพื่อพิจารณา",
+      "d": "จัดทำ WBS"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q37",
+    "question": "การเก็บข้อมูลในขั้น Initiating ควรคำนึงถึงอะไร?",
+    "choices": {
+      "a": "จำกัดข้อมูลให้เฉพาะผู้จัดการโครงการ",
+      "b": "แหล่งข้อมูล ความเหมาะสม และการกลั่นกรองข้อมูลที่จำเป็น",
+      "c": "ใส่ข้อมูลให้มากที่สุดแม้ไม่เกี่ยวข้อง",
+      "d": "ให้ข้อมูลจากสำนักบัญชีเท่านั้น"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q38",
+    "question": "ข้อใดคือการเก็บข้อมูลด้าน Requirement ในการริเริ่มโครงการ?",
+    "choices": {
+      "a": "วิเคราะห์ SOW เพื่อกำหนดเนื้อหาการสอน",
+      "b": "สัมภาษณ์ผู้มีส่วนได้ส่วนเสียและเก็บข้อมูลความต้องการ",
+      "c": "กำหนดงบประมาณของทีมพัฒนา",
+      "d": "สร้าง Sprint Backlog"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q39",
+    "question": "Project Charter มีคุณสมบัติใด?",
+    "choices": {
+      "a": "เป็นเอกสารทางการอนุมัติโครงการอย่างเป็นทางการ",
+      "b": "เป็นสัญญาซื้อขาย",
+      "c": "เป็นเอกสารกำหนด WBS",
+      "d": "เป็นรายงานปิดโครงการ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q40",
+    "question": "ข้อใดไม่ใช่คุณลักษณะของ Project Charter?",
+    "choices": {
+      "a": "กำหนดผู้มีอำนาจอนุมัติโครงการ",
+      "b": "เป็น Statement of Work (SOW)",
+      "c": "อนุญาตให้ทีมสามารถเริ่มโครงการได้",
+      "d": "สรุปภาพรวมโครงการ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q41",
+    "question": "Enterprise Environmental Factors (EEF) ใน Initiating คืออะไร?",
+    "choices": {
+      "a": "กฎ ระเบียบภายนอกที่ส่งผลต่อโครงการ",
+      "b": "ขั้นตอนภายในองค์กรที่จัดทำโดยทีม IT",
+      "c": "เอกสารงบประมาณที่อนุมัติโดย CFO",
+      "d": "แผนสื่อสารองค์กร"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q42",
+    "question": "Organizational Process Assets (OPA) คืออะไร?",
+    "choices": {
+      "a": "นโยบาย คู่มือ ขั้นตอน แบบฟอร์มขององค์กร",
+      "b": "กฎหมายภาครัฐที่บังคับใช้",
+      "c": "เอกสารสัญญาจ้างงาน",
+      "d": "แผนเบิกงบประมาณของรัฐบาล"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q43",
+    "question": "Power–Interest Grid ใช้ทำอะไร?",
+    "choices": {
+      "a": "วิเคราะห์ความเสี่ยงเชิงปริมาณ",
+      "b": "วิเคราะห์ผู้มีส่วนได้ส่วนเสียตามอำนาจและความสนใจ",
+      "c": "วิเคราะห์ต้นทุนรวมของโครงการ",
+      "d": "จัดทำแผนการสื่อสาร"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q44",
+    "question": "Stakeholder Register คืออะไร?",
+    "choices": {
+      "a": "เอกสารวิเคราะห์ความเสี่ยง",
+      "b": "ฐานข้อมูลผู้มีส่วนได้ส่วนเสีย รายละเอียด บทบาท และระดับอิทธิพล",
+      "c": "เอกสารอนุมัติงานจัดซื้อ",
+      "d": "เอกสารควบคุมคุณภาพ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q45",
+    "question": "ข้อมูลใน Stakeholder Register มักประกอบด้วยอะไร?",
+    "choices": {
+      "a": "ตารางกิจกรรมโครงการ",
+      "b": "ชื่อผู้มีส่วนได้ส่วนเสีย บทบาท ความคาดหวัง อิทธิพล",
+      "c": "รายละเอียดสัญญาจัดซื้อ",
+      "d": "ข้อมูลค่าใช้จ่ายรายเดือน"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q46",
+    "question": "ข้อใดจัดเป็น Input สำหรับ Initiating Process Group?",
+    "choices": {
+      "a": "Business Case, Agreement, OPA, EEF",
+      "b": "Sprint Backlog",
+      "c": "Test Plan",
+      "d": "Product Backlog"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q47",
+    "question": "การสัมภาษณ์ผู้มีประสบการณ์ล้มเหลวในอดีตมีเป้าหมายอะไร?",
+    "choices": {
+      "a": "เพิ่มต้นทุนโครงการ",
+      "b": "ใช้เป็นข้อมูลเพื่อลดความเสี่ยง",
+      "c": "กำหนดบทบาททีมใหม่",
+      "d": "กำหนดกำหนดการ Sprint"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q48",
+    "question": "อะไรคือสิ่งสำคัญที่ต้องตั้งให้ชัดใน Initiating เพื่อไปสู่แผนงาน?",
+    "choices": {
+      "a": "Scope, Quality, Resource, Time, Cost",
+      "b": "UI/UX ของระบบ",
+      "c": "Design Database",
+      "d": "รายการทดสอบระบบ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q49",
+    "question": "ข้อใดเป็นลักษณะสำคัญของ Business Case?",
+    "choices": {
+      "a": "เอกสารวิเคราะห์ต้นทุน–ผลประโยชน์เพื่อสนับสนุนการเริ่มโครงการ",
+      "b": "แผนสื่อสารโครงการโดยละเอียด",
+      "c": "แบบฟอร์มอนุมัติจัดซื้อ",
+      "d": "รายงานการวิเคราะห์ความเสี่ยงขั้นสุดท้าย"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q50",
+    "question": "Agreement เช่น MOU มีความสำคัญอย่างไรใน Initiating?",
+    "choices": {
+      "a": "เป็นสัญญาที่ระบุขอบเขตผู้มีส่วนได้ส่วนเสียร่วมกัน",
+      "b": "เป็นแบบฟอร์มแจ้งเตือนความเสี่ยง",
+      "c": "เป็นเอกสารสร้าง WBS",
+      "d": "เป็นแผนงบประมาณเบื้องต้น"
+    },
+    "answer": "a"
+  },
+  
+{
+    "id": "q51",
+    "question": "ผลลัพธ์ (Output) สำคัญจาก Initiating ที่ถูกนำมาเป็น Input ของ Planning คือข้อใด",
+    "choices": {
+      "a": "Risk Register และ Cost Baseline",
+      "b": "Project Charter และ Stakeholder Identification",
+      "c": "Approved Change Requests และ Lessons Learned Register",
+      "d": "Quality Metrics และ Test Plan"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q52",
+    "question": "หัวใจของกระบวนการวางแผน (Planning Essentials) ตามสไลด์ ระบุสิ่งใด 'ไม่ใช่' หนึ่งในสามแกนหลัก",
+    "choices": {
+      "a": "รวบรวมความต้องการที่ชัดเจน",
+      "b": "กำหนดขอบเขตของงาน",
+      "c": "จัดทีมพัฒนาและทำการสรรหา",
+      "d": "ทำแผนปกติและแผนความเสี่ยง"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q53",
+    "question": "ข้อใด 'สอดคล้องที่สุด' กับแนวคิดการ Mapping ระหว่าง Planning Process Group และ Knowledge Areas",
+    "choices": {
+      "a": "Planning เกี่ยวข้องเฉพาะ Integration และ Scope",
+      "b": "Planning เชื่อมโยงกับทุก Knowledge Area และมีขั้นตอนไล่ตั้งแต่แผนรวมถึงแผนย่อย",
+      "c": "Planning เกี่ยวข้องเฉพาะ Cost/Time/Scope เท่านั้น",
+      "d": "Planning ทำหลังจาก Executing เสมอ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q54",
+    "question": "เอกสารใดใช้ติดตามความต้องการให้ครบถ้วน ‘จากแหล่งที่มา → ออกแบบ → ทดสอบ → ส่งมอบ’",
+    "choices": {
+      "a": "Change Log",
+      "b": "Requirement Traceability Matrix (RTM)",
+      "c": "Issue Register",
+      "d": "Quality Checklist"
+    },
+    "answer": "b"
+  },
+  
+{
+    "id": "q55",
+    "question": "เมื่อมีการปรับ WBS ในระหว่างการวางแผน ควรพิจารณาผลกระทบใดเป็นพิเศษ",
+    "choices": {
+      "a": "Communications และ Stakeholder Register",
+      "b": "Schedule/Time และ Budget/Cost",
+      "c": "Procurement Statement of Work",
+      "d": "Team Charter"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q56",
+    "question": "ข้อใด 'ถูกต้อง' เกี่ยวกับ Gantt Chart ตามตัวอย่างในสไลด์",
+    "choices": {
+      "a": "เป็นเครื่องมือบอกเฉพาะงบประมาณของกิจกรรม",
+      "b": "ช่วยแสดงสถานะ กำหนดส่ง ผู้รับผิดชอบ และติดตามงานล่าช้า",
+      "c": "ใช้ได้เฉพาะโครงการแบบ Agile เท่านั้น",
+      "d": "ใช้แทน WBS ได้เสมอโดยไม่ต้องทำ WBS"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q57",
+    "question": "Cost Baseline ถูกกำหนดในขั้นตอนใดของ Cost Management",
+    "choices": {
+      "a": "Plan Cost Management",
+      "b": "Estimate Costs",
+      "c": "Determine Budget",
+      "d": "Control Costs"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q58",
+    "question": "ข้อใด ‘ไม่ใช่’ Output หลักของการวางแผนคุณภาพ (Plan Quality Management)",
+    "choices": {
+      "a": "Quality Management Plan",
+      "b": "Quality Metrics และ Quality Checklist",
+      "c": "Process Improvement Plan",
+      "d": "Sprint Retrospective Report"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q59",
+    "question": "ในการวางแผนตารางเวลา ขั้นตอนใดมักมาก่อนการคำนวณระยะเวลา",
+    "choices": {
+      "a": "Sequence Activities",
+      "b": "Estimate Activity Durations",
+      "c": "Develop Schedule",
+      "d": "Control Schedule"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q60",
+    "question": "Risk Register ในสไลด์ถูกอธิบายอย่างไร",
+    "choices": {
+      "a": "สร้างใน Initiating เท่านั้นและปิดท้ายทันที",
+      "b": "สร้างใน Planning และอัปเดตได้ตลอดโครงการ",
+      "c": "เป็นส่วนหนึ่งของ Procurement Plan เสมอ",
+      "d": "ใช้เฉพาะกรณีทำ Quantitative Risk Analysis"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q61",
+    "question": "ความหมายของ ‘Contingency Plan’ ในบริบทการวางแผนความเสี่ยงคืออะไร",
+    "choices": {
+      "a": "แผนสำรองสำหรับทรัพยากรบุคคล",
+      "b": "แผนรับมือเหตุการณ์ไม่คาดคิดที่กระทบวัตถุประสงค์",
+      "c": "แผนการสื่อสารระหว่างผู้มีส่วนได้ส่วนเสีย",
+      "d": "แผนการเบิกจ่ายงบประมาณ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q62",
+    "question": "สีแดงใน Risk Assessment Matrix ของสไลด์สื่อถึงอะไร",
+    "choices": {
+      "a": "Low (Acceptable)",
+      "b": "Medium (Monitor)",
+      "c": "High (Unacceptable)",
+      "d": "Informational (FYI)"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q63",
+    "question": "ตัวอย่าง Output ของ Plan Procurement Management ตามสไลด์คือข้อใด",
+    "choices": {
+      "a": "Risk Breakdown Structure",
+      "b": "Procurement Management Plan และเอกสารงานพัสดุ",
+      "c": "Resource Calendar",
+      "d": "Test Case Repository"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q64",
+    "question": "Bidder Conference มีวัตถุประสงค์หลักอะไร",
+    "choices": {
+      "a": "ยืนยันการชำระเงินล่วงหน้ากับผู้ขาย",
+      "b": "ทำให้ Supplier เข้าใจข้อกำหนดตรงกันก่อนคัดเลือก",
+      "c": "ลดจำนวนผู้เสนอราคาให้น้อยที่สุด",
+      "d": "ปิดประกวดราคาโดยทันที"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q65",
+    "question": "ในตัวอย่าง e‑bidding ภาครัฐ โครงการเกิน 500,000 บาทต้องแนบไฟล์ใด",
+    "choices": {
+      "a": "Product Roadmap",
+      "b": "ไฟล์ประกาศราคากลาง (Reference Price)",
+      "c": "Project Vision Statement",
+      "d": "ทีมโครงงานพร้อมใบรับรองทักษะ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q66",
+    "question": "ข้อใด 'ถูกต้อง' เกี่ยวกับ Planning Process ตามสไลด์",
+    "choices": {
+      "a": "ทำครั้งเดียวจบ ไม่วนซ้ำ",
+      "b": "เป็นกระบวนการวนซ้ำ สามารถมี Version 1, 2, …",
+      "c": "ทำหลัง Closing",
+      "d": "ทำเฉพาะเมื่อเปลี่ยนผู้จัดการโครงการ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q67",
+    "question": "องค์ประกอบหลักที่เป็นกรอบกำกับของ Project Management Plan ตามสไลด์มีอะไรบ้าง",
+    "choices": {
+      "a": "Scope, Schedule/Time, Cost",
+      "b": "Vision, Mission, Values",
+      "c": "Team Roster, Seating Plan, Asset List",
+      "d": "Contracts, Invoices, Receipts"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q68",
+    "question": "Low‑end / Midrange / High‑end Project Tools ในสไลด์ถูกจัดกลุ่มโดยเกณฑ์ใดเด่นสุด",
+    "choices": {
+      "a": "จำนวนผู้พัฒนา",
+      "b": "ช่วงราคาใช้งานต่อคนและความซับซ้อนของโครงการ",
+      "c": "ภาษาโปรแกรมที่รองรับ",
+      "d": "รองรับ Waterfall เท่านั้น"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q69",
+    "question": "จากตัวอย่าง ONES ในสไลด์ ฟีเจอร์ใด ‘ไม่ถูกกล่าวถึง’",
+    "choices": {
+      "a": "Gantt, Timeline, Burndown",
+      "b": "Kanban Board และ Test Case",
+      "c": "Wiki/Knowledge base",
+      "d": "Automated Cost Accounting"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q70",
+    "question": "ตัวอย่าง WBS ที่ดีตามสไลด์มีลักษณะใด",
+    "choices": {
+      "a": "แยกงานเป็นโมดูล/แผนก พร้อมระดับย่อย (Level) และพจนานุกรมงาน",
+      "b": "รวมงานทั้งหมดไว้ในกิจกรรมเดียว",
+      "c": "กำหนดเฉพาะชื่อโครงการโดยไม่แตกงาน",
+      "d": "ใช้เฉพาะกิจกรรมทดสอบ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q71",
+    "question": "เทคนิค Information Gathering ใด ‘จับใจความถูกต้อง’ ตามสไลด์",
+    "choices": {
+      "a": "Brainstorming: เปิดไอเดียอย่างอิสระรวดเร็ว",
+      "b": "Delphi: ให้ผู้เชี่ยวชาญถกเถียงกันแบบตัวต่อตัว",
+      "c": "Interviewing: ใช้เฉพาะถามคำถามปิด (Yes/No)",
+      "d": "Brainstorming: ต้องทำแบบไม่กำหนดเวลาเสมอ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q72",
+    "question": "Delphi Technique มีสาระสำคัญตามสไลด์คืออะไร",
+    "choices": {
+      "a": "ผู้เชี่ยวชาญตอบแบบสอบถามโดยไม่เผชิญหน้า และหาฉันทามติ",
+      "b": "สนทนากลุ่มกันแบบเปิดเผย",
+      "c": "สัมภาษณ์เชิงลึกแบบตัวต่อตัว",
+      "d": "โหวตเสียงข้างมากในทีมพัฒนา"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q73",
+    "question": "ตัวอย่างประเภทโครงการ IT (IT Project Types) ที่ระบุในสไลด์ ‘ไม่รวม’ ข้อใด",
+    "choices": {
+      "a": "โครงการด้านศูนย์ข้อมูล (Data Center)",
+      "b": "โครงการด้านเครื่องจักรไอน้ำ",
+      "c": "โครงการด้านความมั่นคงปลอดภัยดิจิทัล",
+      "d": "โครงการด้านซอฟต์แวร์"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q74",
+    "question": "เพื่อให้ ‘แผนทันสมัยและสอดคล้อง’ ตามสไลด์ ควรทำสิ่งใด",
+    "choices": {
+      "a": "ยึด Version แรกห้ามแก้ไข",
+      "b": "ทบทวนและปรับปรุงเอกสารแผนอย่างสม่ำเสมอเมื่อมีการเปลี่ยนแปลง",
+      "c": "งดการสื่อสารกับผู้มีส่วนได้ส่วนเสีย",
+      "d": "เลื่อน Milestone ออกไปโดยไม่บันทึก"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q75",
+    "question": "ข้อใด ‘จัดลำดับกิจกรรม’ ของ Planning ที่สมเหตุสมผลตามแนวสไลด์",
+    "choices": {
+      "a": "Develop Schedule → Define Activities → Sequence Activities",
+      "b": "Collect Requirements → Define Scope → Create WBS",
+      "c": "Control Costs → Determine Budget → Estimate Costs",
+      "d": "Plan Quality → Close Project → Plan Communications"
+    },
+    "answer": "b"
+  },
+  
+{
+    "id": "q76",
+    "question": "Project Executing ตาม PMBOK 6th อธิบายว่าอย่างไร?",
+    "choices": {
+      "a": "กระบวนการเพื่อวางแผนและกำหนดขอบเขต",
+      "b": "กระบวนการเพื่อปิดโครงการและส่งมอบ",
+      "c": "กระบวนการที่ดำเนินงานตาม PM Plan เพื่อให้บรรลุความต้องการโครงการ",
+      "d": "กระบวนการเพื่ออนุมัติโครงการอย่างเป็นทางการ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q77",
+    "question": "แก่นของ Executing ในสไลด์ระบุว่าต้องคุมปัจจัยใดให้สอดคล้องกันมากที่สุด",
+    "choices": {
+      "a": "Scope & Quality, Resource, Time, Cost",
+      "b": "Vision, Mission, Value",
+      "c": "UI/UX, Code Style, Test Case",
+      "d": "Procurement Only"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q78",
+    "question": "ความแตกต่างที่ถูกต้องระหว่างแผนปกติและแผนไม่ปกติใน Executing คือข้อใด",
+    "choices": {
+      "a": "แผนปกติใช้เฉพาะ Agile ส่วนแผนไม่ปกติใช้เฉพาะ Waterfall",
+      "b": "แผนปกติเดินตามเฟสเดิม ส่วนแผนไม่ปกติครอบคลุมแผนสำรองและแผนฉุกเฉิน",
+      "c": "แผนปกติเน้นความเสี่ยง ส่วนแผนไม่ปกติไม่พูดถึงความเสี่ยง",
+      "d": "ไม่มีความต่างใด ๆ ใช้แทนกันได้"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q79",
+    "question": "ตัวอย่างแผนฉุกเฉิน (Emergency) ในสไลด์จัดอยู่ในสถานการณ์ใด",
+    "choices": {
+      "a": "เหตุการณ์ปกติที่คาดการณ์ได้ล่วงหน้า",
+      "b": "การเปลี่ยนแปลงปกติของสcope",
+      "c": "เหตุการณ์ไม่คาดคิด เช่น การระบาด COVID‑19",
+      "d": "การทบทวนเอกสารสัญญา"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q80",
+    "question": "เมื่อบีบเวลาให้โครงการเสร็จเร็วขึ้นตามตัวอย่าง สไลด์ชี้ว่าผลกระทบใดตามมาบ่อยที่สุด",
+    "choices": {
+      "a": "Resource ลดลงและ Cost ลดลง",
+      "b": "Resource เพิ่มขึ้นและ Cost เพิ่มขึ้น",
+      "c": "Quality เพิ่มขึ้นโดยอัตโนมัติ",
+      "d": "Stakeholder ลดลงครึ่งหนึ่ง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q81",
+    "question": "Executing เชื่อมโยงกับ Knowledge Areas ใดบ้างตามสไลด์ (ภาพรวม 7 มิติ)",
+    "choices": {
+      "a": "Integration, Quality, Resource, Communications, Risk, Procurement, Stakeholder",
+      "b": "Scope, Schedule, Cost เท่านั้น",
+      "c": "Procurement อย่างเดียว",
+      "d": "Quality และ Cost เท่านั้น"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q82",
+    "question": "Direct and Manage Project Work จัดอยู่ในขั้นตอนย่อยของ Executing ด้านใด",
+    "choices": {
+      "a": "Integration",
+      "b": "Quality",
+      "c": "Procurement",
+      "d": "Stakeholder"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q83",
+    "question": "Manage Project Knowledge ใน Executing มีจุดมุ่งหมายหลักคืออะไร",
+    "choices": {
+      "a": "สรุปงบประมาณปลายโครงการ",
+      "b": "ใช้และแบ่งปันองค์ความรู้เพื่อเพิ่มประสิทธิภาพการทำงาน",
+      "c": "ปิดโครงการและยุติสัญญา",
+      "d": "อนุมัติการเปลี่ยนแปลงทั้งหมดแบบอัตโนมัติ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q84",
+    "question": "Quality ใน Executing เน้นกิจกรรมประเภทใดตามสไลด์",
+    "choices": {
+      "a": "Plan Quality Management",
+      "b": "Perform Quality Assurance/Manage Quality",
+      "c": "Control Quality เท่านั้น",
+      "d": "Create WBS"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q85",
+    "question": "ข้อใด ‘ไม่ใช่’ ขั้นตอนใน Human Resource (Executing) ตามสไลด์",
+    "choices": {
+      "a": "จัดหาทีมพัฒนาโครงการ",
+      "b": "จัดทัพทีมพัฒนาโครงการ",
+      "c": "จัดการทีมพัฒนาโครงการ",
+      "d": "ปิดบัญชีโครงการและเลิกจ้างทีม"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q86",
+    "question": "เอกสารใดถูกยกตัวอย่างในสไลด์เพื่อกำหนดความรับผิดชอบของสมาชิกแต่ละคน",
+    "choices": {
+      "a": "Statement of Work (SOW)",
+      "b": "Responsibility Assignment Matrix (RAM)",
+      "c": "Work Authorization System",
+      "d": "Change Control Log"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q87",
+    "question": "ข้อควรระวังเรื่องทรัพยากรคนใน Executing ที่สไลด์ย้ำคือข้อใด",
+    "choices": {
+      "a": "คนเดียวทำหลายบทบาท, สลับทีมกระทันหัน, Manday จำกัด",
+      "b": "ทีมใหญ่เกินไปเสมอ",
+      "c": "ไม่ควรทำงานข้ามแผนก",
+      "d": "ห้ามใช้ผู้เชี่ยวชาญจากภายนอก"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q88",
+    "question": "สูตรจำนวนช่องทางการสื่อสารของทีมใน Executing คืออะไร",
+    "choices": {
+      "a": "N × (N + 1) / 2",
+      "b": "N × (N − 1) / 2",
+      "c": "(N^2) − 1",
+      "d": "2N − 1"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q89",
+    "question": "ใน Executing ประเด็น Risk ที่สไลด์เน้นเป็นพิเศษคืออะไร",
+    "choices": {
+      "a": "Plan Risk Responses และนำไปใช้เพื่อรับมือสิ่งไม่คาดคิด",
+      "b": "ลบความเสี่ยงทั้งหมดออกจากแผน",
+      "c": "วิเคราะห์เชิงปริมาณเท่านั้น",
+      "d": "ปิด Risk Register เมื่อเริ่ม Executing"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q90",
+    "question": "การปฏิบัติการงานพัสดุ/จัดซื้อจัดจ้างระหว่าง Executing อยู่ในมิติใด",
+    "choices": {
+      "a": "Procurement",
+      "b": "Integration",
+      "c": "Quality",
+      "d": "Scope"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q91",
+    "question": "การมีส่วนร่วมของผู้มีส่วนได้ส่วนเสียในช่วง Executing มุ่งเน้นอะไร",
+    "choices": {
+      "a": "ตัดผู้มีส่วนได้ส่วนเสียออกจากการตัดสินใจ",
+      "b": "ส่งเสริมการมีส่วนร่วมและจัดการความคาดหวัง",
+      "c": "ทำเฉพาะรายงานรายเดือน",
+      "d": "ย้ายการสื่อสารไปช่วง Closing"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q92",
+    "question": "สไลด์ระบุว่าเวลาส่วนใหญ่มักถูกใช้ในขั้นใดของ Project Life Cycle",
+    "choices": {
+      "a": "Initiating",
+      "b": "Planning",
+      "c": "Executing",
+      "d": "Closing"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q93",
+    "question": "เหตุใดแม้จะมีแผนดี โครงการยังต้องปรับแผนในช่วง Executing ตามสไลด์",
+    "choices": {
+      "a": "เพราะ Executing ทำหลังปิดโครงการแล้ว",
+      "b": "เพราะเจอสิ่งไม่คาดคิดและปัจจัยภายนอกที่เปลี่ยนแปลง",
+      "c": "เพราะทีมไม่ต้องการทำตามแผน",
+      "d": "เพราะกฎหมายบังคับให้ปรับทุกสัปดาห์"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q94",
+    "question": "เมื่อถูกบังคับให้ลดเวลาโครงการลงครึ่งหนึ่ง สิ่งใด ‘ไม่ใช่’ กลยุทธ์ที่สไลด์ชี้",
+    "choices": {
+      "a": "เพิ่มทรัพยากรและยอมรับต้นทุนสูงขึ้น",
+      "b": "บริหารความเสี่ยงและความซับซ้อนที่เพิ่ม",
+      "c": "หยุดสื่อสารกับผู้มีส่วนได้ส่วนเสียเพื่อลดงานเอกสาร",
+      "d": "ประสานงานเข้มและตัดสินใจเร็วขึ้นบนข้อมูล"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q95",
+    "question": "โฟกัสสำคัญของผู้จัดการโครงการใน Executing ตามสไลด์คืออะไร",
+    "choices": {
+      "a": "จัดหาทีม–จัดทัพทีม–จัดการทีม และตัดสินใจแก้ปัญหาให้กระทบน้อยที่สุด",
+      "b": "ออกแบบ UI ใหม่ทั้งหมด",
+      "c": "ทบทวน PMBOK ทุกบท",
+      "d": "ทำรายงานการเงินทุกวัน"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q96",
+    "question": "ข้อใด ‘ไม่ใช่’ ตัวอย่างการพัฒนาทีมตามสไลด์ Teamwork",
+    "choices": {
+      "a": "Interpersonal Skills",
+      "b": "Team Building Activity",
+      "c": "Training (Planned/Unplanned)",
+      "d": "ลงโทษสาธารณะเพื่อให้ทีมมีวินัย"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q97",
+    "question": "การฝึกอบรมแบบใด ‘จัดอยู่ใน Unplanned Training’ ตามสไลด์",
+    "choices": {
+      "a": "คอร์สออนไลน์ที่กำหนดเวลา",
+      "b": "เรียนในห้องตามตาราง",
+      "c": "การสังเกต การสนทนา และการประเมินผลปฏิบัติงาน",
+      "d": "Bootcamp รับใบประกาศ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q98",
+    "question": "สิ่งใดต่อไปนี้ ‘ช่วยลดความขัดแย้งในทีม’ ตามแนวทางสไลด์ Teamwork",
+    "choices": {
+      "a": "จำกัดช่องทางสื่อสารให้เหลือคนเดียวพูด",
+      "b": "สนับสนุน ช่วยเหลือกัน ใช้ผู้นำเป็นตัวอย่าง และสื่อสารอย่างเป็นระบบ",
+      "c": "เลี่ยงการพบปะทุกกรณี",
+      "d": "แยกทีมย่อยไม่ให้คุยกัน"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q99",
+    "question": "ประเด็นใด ‘ถูกต้อง’ เกี่ยวกับการสื่อสารใน Executing",
+    "choices": {
+      "a": "จำนวนช่องทางเพิ่มตามจำนวนสมาชิก จึงต้องวางแผนสื่อสารให้เหมาะสม",
+      "b": "ช่องทางสื่อสารคงที่ไม่ว่า N เท่าใด",
+      "c": "ยิ่งช่องทางมากยิ่งไม่ต้องมีแผน",
+      "d": "สื่อสารเฉพาะกับผู้สนับสนุนโครงการ"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q100",
+    "question": "จากรายการ ‘สิ่งสำคัญในการแก้ปัญหา’ ที่สไลด์ระบุ ผู้จัดการโครงการควรคำนึงถึงอะไรเมื่อเกิดอุปสรรค",
+    "choices": {
+      "a": "เปลี่ยนสcopeทันทีโดยไม่แจ้งทีม",
+      "b": "อ้างอิง 4 ปัจจัยหลักบนสามเหลี่ยมโครงการเพื่อกำหนดแนวทางแก้ไข",
+      "c": "หยุดโครงการก่อนแล้วค่อยคิดต่อ",
+      "d": "รอให้ปัญหาหายเอง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q101",
+    "question": "คำจำกัดความของ Project Monitoring & Controlling ตาม PMBOK 6th คือข้อใดต่อไปนี้",
+    "choices": {
+      "a": "กระบวนการเพื่ออนุมัติโครงการและปิดโครงการ",
+      "b": "กระบวนการเพื่อออกแบบสถาปัตยกรรมและทดสอบระบบ",
+      "c": "กระบวนการเพื่อติดตาม ทบทวน ควบคุมความก้าวหน้า/สมรรถนะ ระบุจุดที่ต้องเปลี่ยนแผน และเริ่มการเปลี่ยนแปลง",
+      "d": "กระบวนการเพื่อว่าจ้างบุคลากรและจ่ายค่าตอบแทน"
+    },
+    "answer": "c"
+  },
+  
+{
+    "id": "q102",
+    "question": "เหตุผลสำคัญที่ต้องมี M&C ตามสไลด์คืออะไร",
+    "choices": {
+      "a": "เพื่อให้ทีมทำงานโดยไม่ต้องรายงาน",
+      "b": "เพื่อปรับแผนได้ทันท่วงที ประเมินความคืบหน้า และทำให้ผู้ถือหุ้นมั่นใจ",
+      "c": "เพื่อหยุด Executing ชั่วคราว",
+      "d": "เพื่อทำให้เอกสารมีจำนวนมากที่สุด"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q103",
+    "question": "ในการรายงานผลภายใต้ M&C ตัวชี้วัดขั้นต่ำที่ต้องเทียบ Planned กับ Actual โดยตรงคือข้อใด",
+    "choices": {
+      "a": "จำนวนเอกสารที่จัดทำ",
+      "b": "% งานสำเร็จ ระยะเวลาที่ใช้ และงบที่ใช้",
+      "c": "จำนวนประชุมที่เกิดขึ้น",
+      "d": "จำนวนสมาชิกใหม่ในทีม"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q104",
+    "question": "หลักความสมดุลที่ผู้จัดการโครงการต้องนึกถึงเสมอในช่วง M&C คืออะไร",
+    "choices": {
+      "a": "UI/UX — DevOps — Test",
+      "b": "Vision — Mission — Values",
+      "c": "Scope & Quality — Time — Cost — Resource",
+      "d": "Plan — Do — Study — Act"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q105",
+    "question": "Perform Integrated Change Control ใน M&C มุ่งเน้นสิ่งใดเป็นหลัก",
+    "choices": {
+      "a": "อนุมัติการเปลี่ยนแปลงอย่างมีระบบและอัปเดตแผน/เอกสารที่เกี่ยวข้อง",
+      "b": "รับข้อเสนอแนะจากลูกค้าอย่างไม่เป็นทางการ",
+      "c": "สรุปบทเรียนหลังปิดโครงการ",
+      "d": "ออกแบบ WBS ใหม่ทุกสัปดาห์"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q106",
+    "question": "ในมิติ Scope ของ M&C กระบวนการใดใช้ยืนยันสิ่งส่งมอบกับผู้มีส่วนได้ส่วนเสีย",
+    "choices": {
+      "a": "Define Scope",
+      "b": "Validate Scope",
+      "c": "Create WBS",
+      "d": "Plan Scope Management"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q107",
+    "question": "ข้อใดกล่าวถูกต้องเกี่ยวกับ Control Scope",
+    "choices": {
+      "a": "ใช้ควบคุมการเปลี่ยนแปลงขอบเขตและอัปเดต baseline ที่เกี่ยวข้องเมื่อจำเป็น",
+      "b": "เป็นขั้นตอนการเก็บ Requirement",
+      "c": "ใช้เฉพาะใน Initiating",
+      "d": "ไม่เกี่ยวข้องกับ Performance Measurement Baseline"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q108",
+    "question": "Control Schedule ตามสไลด์ใช้เทคนิคใดบ่อยเพื่อประเมินความคืบหน้า",
+    "choices": {
+      "a": "Monte Carlo Simulation เท่านั้น",
+      "b": "Iteration burndown, Earned Value, Variance/Trend analysis",
+      "c": "Pareto 80/20 เท่านั้น",
+      "d": "Design of Experiments"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q109",
+    "question": "ผลลัพธ์ที่พบบ่อยจาก Control Schedule คืออะไร",
+    "choices": {
+      "a": "Approved Change Requests และ Schedule Forecasts",
+      "b": "Business Case",
+      "c": "Project Charter",
+      "d": "Team Contract"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q110",
+    "question": "Control Costs ใน M&C ใช้ตัวชี้วัด/เทคนิคใดเด่น",
+    "choices": {
+      "a": "EVA (Earned Value Analysis) และ To-Complete Performance Index",
+      "b": "Kano Model",
+      "c": "User Journey Map",
+      "d": "Design Sprint"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q111",
+    "question": "Control Quality ให้ผลลัพธ์ใดเพื่อส่งต่อไปยัง Validate Scope/ส่วนอื่น",
+    "choices": {
+      "a": "Approved Business Case",
+      "b": "Verified Deliverables และ Quality Control Measurements",
+      "c": "Risk Report",
+      "d": "Stakeholder Register"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q112",
+    "question": "ข้อใดคือตัวอย่างเครื่องมือ Data Representation ใน Control Quality ตามสไลด์",
+    "choices": {
+      "a": "Ishikawa/Fishbone, Control Chart, Histogram, Scatter Diagram",
+      "b": "Wireframe, Mockup",
+      "c": "Gantt Chart เท่านั้น",
+      "d": "Mind Map"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q113",
+    "question": "ใน Monitor Communications ผลลัพธ์ที่อาจต้องอัปเดตคืออะไร",
+    "choices": {
+      "a": "Communications Management Plan และ Stakeholder Engagement Plan",
+      "b": "Network Topology",
+      "c": "Coding Standard",
+      "d": "Release Notes เท่านั้น"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q114",
+    "question": "Monitor Risks ให้ความสำคัญกับสิ่งใด",
+    "choices": {
+      "a": "ปิด Risk Register เมื่อเข้า Executing",
+      "b": "อัปเดต Risk Register/Risk Report อย่างต่อเนื่อง และพิจารณา Change Requests หากจำเป็น",
+      "c": "จำกัดความเสี่ยงเฉพาะด้านเทคนิค",
+      "d": "ยกเลิก Reserve Analysis"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q115",
+    "question": "Control Procurements ในสไลด์ยกตัวอย่างกิจกรรมควบคุมใด",
+    "choices": {
+      "a": "Claims Administration, Inspection, Audits และ Performance Reviews",
+      "b": "A/B Testing",
+      "c": "Focus Group",
+      "d": "Heuristic Evaluation"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q116",
+    "question": "Monitor Stakeholder Engagement มีเป้าหมายหลักใด",
+    "choices": {
+      "a": "ลดบทบาทผู้มีส่วนได้ส่วนเสียให้เหลือน้อยที่สุด",
+      "b": "ประเมินระดับการมีส่วนร่วม ปรับกลยุทธ์การสื่อสาร และออก Change Requests เมื่อต้องการ",
+      "c": "เปลี่ยนผู้สนับสนุนโครงการทุกเฟส",
+      "d": "ยุติการประชุมทั้งหมด"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q117",
+    "question": "Fishbone (Ishikawa) Diagram ใช้เพื่ออะไรในบริบท M&C",
+    "choices": {
+      "a": "ประมาณต้นทุนโครงการ",
+      "b": "ระบุสาเหตุรากของปัญหา/ความเสี่ยงตามหมวดหมู่ เช่น People, Process, Equipment",
+      "c": "จัดลำดับความสำคัญคุณลักษณะผลิตภัณฑ์",
+      "d": "กำหนดเครือข่าย PERT"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q118",
+    "question": "ข้อใดกล่าว ‘ถูกต้อง’ เกี่ยวกับ Control Resources ตามสไลด์",
+    "choices": {
+      "a": "ทำเฉพาะช่วงปิดโครงการ",
+      "b": "ทำตลอดวงจรโครงการ เพื่อให้ทรัพยากรถูกที่ ถูกเวลา และเพียงพอ",
+      "c": "ใช้ได้เฉพาะทรัพยากรบุคคล ไม่รวมกายภาพ",
+      "d": "ไม่มีผลต่อแผนฐานเวลา/ต้นทุน"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q119",
+    "question": "ตัวอย่างมาตรฐานคุณภาพด้าน IT ที่ยกในสไลด์อยู่ข้อใด",
+    "choices": {
+      "a": "ISO/IEC 27001, ISO/IEC 20000-1, ISO/IEC 27701 และ CMMI",
+      "b": "ITIL เท่านั้น",
+      "c": "PCI-DSS เท่านั้น",
+      "d": "IEEE 802.11 อย่างเดียว"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q120",
+    "question": "ISO/IEC 40500 (WCAG) ที่ยกเป็นตัวอย่างบนสไลด์เกี่ยวข้องกับเรื่องใด",
+    "choices": {
+      "a": "ความมั่นคงปลอดภัยสารสนเทศ",
+      "b": "กระบวนการบริการ IT (ITSM)",
+      "c": "แนวทางการเข้าถึงเนื้อหาเว็บ (Web Content Accessibility)",
+      "d": "แบบจำลองวุฒิภาวะองค์กร"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q121",
+    "question": "ปัจจัยแห่งความล้มเหลว (Failure Factors) ข้อใด ‘สอดคล้อง’ กับสไลด์",
+    "choices": {
+      "a": "การกำกับดูแลผู้บริหารอาวุโสไม่พอ วางแผนไม่มีประสิทธิภาพ องค์กรออกแบบไม่เหมาะสม",
+      "b": "ทีมใหญ่เกินไปเสมอ",
+      "c": "ลูกค้าลดงบประมาณเลยต้องล้มเลิก",
+      "d": "ขาดการทดสอบระบบเท่านั้น"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q122",
+    "question": "Success Factors ตามสไลด์ ข้อใด ‘ไม่อยู่’ ในรายการ",
+    "choices": {
+      "a": "Delivered & fits mission/needs",
+      "b": "Overall results on time & budget",
+      "c": "Stakeholders happy",
+      "d": "ลดการฝึกอบรมทีมลงเพื่อประหยัดเวลา"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q123",
+    "question": "ในเชิงปฏิบัติ เมื่อพบว่า Schedule/Cost เบี่ยงเบนจากแผนในช่วง M&C แนวทางที่เหมาะสมที่สุดคือข้อใด",
+    "choices": {
+      "a": "หยุดรายงานเพื่อไม่ให้เกิดความตื่นตระหนก",
+      "b": "วิเคราะห์สาเหตุ–ผลกระทบ เสนอ Change Request และอัปเดตแผน/ฐานข้อมูลตามกระบวนการ",
+      "c": "เปลี่ยน baseline เงียบ ๆ โดยไม่แจ้งผู้มีส่วนได้ส่วนเสีย",
+      "d": "เลื่อนส่งมอบโดยไม่บันทึก"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q124",
+    "question": "ตัวอย่างข่าวกรณีศึกษาโครงการ IT ล้มเหลวในสไลด์สื่อถึงบทเรียนใด",
+    "choices": {
+      "a": "ไม่ต้องตรวจสอบความพร้อมก่อนทดลองระบบจริง",
+      "b": "ความล้มเหลวในวันทดสอบสะท้อนปัญหาคุณภาพ/การเตรียมพร้อม และความโปร่งใสจัดซื้อ",
+      "c": "ยิ่งตารางเร่งยิ่งดีโดยไม่ต้องคุมคุณภาพ",
+      "d": "ไม่เกี่ยวกับ M&C"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q125",
+    "question": "ขั้นตอนปฏิบัติพื้นฐานเพื่อ ‘รับมือ’ ในกระบวนการ M&C ตามแผนภาพบนสไลด์คือข้อใด",
+    "choices": {
+      "a": "สื่อสาร–เทียบแผนกับงานจริง–หาจุดอ่อน–ระบุสาเหตุ–สำรวจทรัพยากรที่มี–เสนอทางแก้/ปรับแผน",
+      "b": "สร้างสไลด์สรุปทุกวัน",
+      "c": "ลดจำนวนผู้เกี่ยวข้องลงครึ่งหนึ่ง",
+      "d": "ปิดความเสี่ยงทั้งหมดทันที"
+    },
+    "answer": "a"
+  },
+  
+{
+    "id": "q126",
+    "question": "นิยามของ Project Closing Process Group ตาม PMBOK 6th คือข้อใด",
+    "choices": {
+      "a": "กระบวนการเพื่อทบทวนบทเรียนหลังส่งมอบบางส่วน",
+      "b": "กระบวนการที่ดำเนินการเพื่อปิดโครงการ เฟส หรือสัญญาอย่างเป็นทางการ",
+      "c": "กระบวนการที่ใช้ควบคุมความก้าวหน้าและเริ่มการเปลี่ยนแปลง",
+      "d": "กระบวนการที่ใช้จัดทำตารางเวลาและงบประมาณขั้นสุดท้าย"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q127",
+    "question": "เหตุผลสำคัญที่ต้องทำขั้นปิดโครงการคือข้อใด",
+    "choices": {
+      "a": "แสดงว่าโครงการสิ้นสุดอย่างเป็นทางการและส่งมอบงานครบถ้วนตามเงื่อนไข",
+      "b": "ลดปริมาณเอกสารโครงการ",
+      "c": "อนุญาตให้เริ่มต้นโครงการใหม่โดยอัตโนมัติ",
+      "d": "ย้ายทีมงานไปยังฝ่ายอื่นทันทีโดยไม่ต้องลงนาม"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q128",
+    "question": "หากโครงการต้องยุติก่อนบรรลุเป้าหมาย ผู้จัดการโครงการควรทำสิ่งใดตามแนวทางสไลด์",
+    "choices": {
+      "a": "ก้าวข้ามการลงนามเอกสารเพื่อประหยัดเวลา",
+      "b": "ตรวจสอบวิธีปฏิบัติขององค์กร (OPA) และบันทึกเหตุผลการยุติโครงการ",
+      "c": "ยุติโครงการด้วยวาจาแล้วจบ",
+      "d": "ปิดเฉพาะสัญญา ไม่ต้องปิดโครงการ"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q129",
+    "question": "ในแผนภาพการโต้ตอบของ Process Groups ขั้นปิดโครงการเริ่มเห็นชัดตั้งแต่ช่วงใด",
+    "choices": {
+      "a": "ปลาย Closing เท่านั้น",
+      "b": "เริ่มเห็นตั้งแต่ Planning ต่อเนื่องถึง Executing และ M&C ก่อนปิดจริง",
+      "c": "เฉพาะช่วง Initiating",
+      "d": "หลังส่งมอบแล้วหนึ่งปี"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q130",
+    "question": "ในตาราง Mapping ของ PMBOK 6th ขั้นปิดโครงการเกี่ยวข้องกับ Knowledge Areas ใด",
+    "choices": {
+      "a": "Integration และ Procurement",
+      "b": "Scope และ Schedule",
+      "c": "Quality และ Resource",
+      "d": "Risk และ Communications"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q131",
+    "question": "Close Project or Phase มีจุดมุ่งหมายหลักคืออะไร",
+    "choices": {
+      "a": "อนุมัติการเปลี่ยนแปลง",
+      "b": "ถ่ายโอนผลงานสุดท้าย ออกรายงานปิดโครงการ และอัปเดต OPA",
+      "c": "วิเคราะห์ต้นทุนเชิงลึก",
+      "d": "คัดเลือกผู้ขายรายใหม่"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q132",
+    "question": "ก่อนปิดโครงการควรตรวจสอบอะไรเป็นลำดับแรก",
+    "choices": {
+      "a": "ตรวจว่ามีการจ้างทีมเพิ่มหรือไม่",
+      "b": "ตรวจว่างานเสร็จตามขอบเขต และเป็นไปตามแผนการจัดการโครงการ",
+      "c": "ตรวจว่ามีสลิปเงินเดือนครบหรือไม่",
+      "d": "ตรวจว่ามีสปอนเซอร์รายใหม่หรือไม่"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q133",
+    "question": "ผลลัพธ์สำคัญของ Close Project or Phase ตาม PMBOK ที่สไลด์ระบุคือข้อใด",
+    "choices": {
+      "a": "Approved Change Requests",
+      "b": "Final report และ Final product/service/result transition",
+      "c": "Risk Report เวอร์ชันสุดท้าย",
+      "d": "Stakeholder Register ฉบับปรับปรุง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q134",
+    "question": "เอกสารใดเป็นสัญญาณว่า 'สิ่งส่งมอบ' ผ่านการตรวจรับและพร้อมนำไปปิดโครงการ",
+    "choices": {
+      "a": "Issue Log",
+      "b": "Accepted Deliverables Form พร้อมลายเซ็นผู้ตรวจรับ",
+      "c": "Assumption Log",
+      "d": "Network Diagram"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q135",
+    "question": "Close Procurement ในสไลด์ให้ผลลัพธ์ใดเพิ่มเติม",
+    "choices": {
+      "a": "ใบสั่งซื้อใหม่",
+      "b": "เอกสารการปิดงานพัสดุ และ OPA updates",
+      "c": "Work Breakdown Structure",
+      "d": "Business Case ฉบับใหม่"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q136",
+    "question": "ข้อใดคือ Input สำคัญของ Close Project or Phase",
+    "choices": {
+      "a": "Approved Budget เท่านั้น",
+      "b": "Accepted Deliverables, Business Documents, Agreements",
+      "c": "Only Project Calendar",
+      "d": "Only Team Charters"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q137",
+    "question": "เอกสารชุดใดจัดอยู่ใน \"Project Management Plan\" ตามหมวดตัวอย่างในสไลด์",
+    "choices": {
+      "a": "Quality Metrics, Verified Deliverables",
+      "b": "Requirements/Scope/Schedule/Cost/Quality/Resource Management Plans",
+      "c": "Issue Log, Risk Register",
+      "d": "Proposal Selection, Closed Procurements"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q138",
+    "question": "ชุดเอกสารใดจัดอยู่ใน \"Project Documents\" กลุ่ม Integration ในสไลด์",
+    "choices": {
+      "a": "Project Charter, Change Requests, Change Log, WPD/WPI/WPR",
+      "b": "Project Funding Requirements เท่านั้น",
+      "c": "SEAM Matrix และ RTM",
+      "d": "Business Case อย่างเดียว"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q139",
+    "question": "ตัวอย่างเอกสารในกลุ่ม Scope/Time ที่ช่วยให้ปิดโครงการได้อย่างมั่นใจคือข้อใด",
+    "choices": {
+      "a": "Risk Report และ Lessons Learned",
+      "b": "Requirements Documentation, RTM, Milestone List และ Project Schedule Network",
+      "c": "Stakeholder Register และ Issue Log",
+      "d": "Test Case Library"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q140",
+    "question": "“Schedule Forecast” และ “Cost Forecast” ที่สไลด์กล่าวถึงอยู่ในกลุ่มเอกสารใด",
+    "choices": {
+      "a": "Project Documents (Schedule/Cost)",
+      "b": "Business Documents",
+      "c": "Approved Contracts",
+      "d": "Team Performance Assessments"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q141",
+    "question": "แบบฟอร์ม Change Request ในสไลด์แบ่งส่วนการใช้งานหลักเป็นลำดับใด",
+    "choices": {
+      "a": "Board วิเคราะห์ → PM ตัดสินใจ → ผู้ยื่นรับรอง",
+      "b": "ผู้ยื่นให้ข้อมูลทั่วไป → PM วิเคราะห์ผลกระทบ → CCB ตัดสินใจ",
+      "c": "PM วิเคราะห์ → ผู้ยื่นรับรอง → ทีมลงนาม",
+      "d": "ผู้ขายตัดสินใจ → ลูกค้าลงนาม → PM รับรอง"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q142",
+    "question": "Stakeholder Engagement Assessment Matrix (SEAM/SEM) ในสไลด์ใช้เพื่ออะไร",
+    "choices": {
+      "a": "วัดความครบถ้วนของเอกสาร",
+      "b": "ประเมินสถานะการมีส่วนร่วมของผู้มีส่วนได้ส่วนเสียจาก Current → Desired",
+      "c": "วิเคราะห์เส้นทางวิกฤต",
+      "d": "สรุปความคืบหน้าเชิงการเงิน"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q143",
+    "question": "ข้อใดสื่อถึงความสำเร็จของการปิดโครงการตามกรอบสามเหลี่ยมในสไลด์",
+    "choices": {
+      "a": "ได้คุณภาพตามมาตรฐาน ภายในขอบเขต เวลา และงบประมาณที่กำหนด (หรือในกรอบที่ยอมรับได้)",
+      "b": "ได้งานเร็วสุดไม่คำนึงคุณภาพ",
+      "c": "ใช้งบเกินมากเพื่อให้จบ",
+      "d": "ลดขอบเขตโดยไม่แจ้งผู้มีส่วนได้ส่วนเสีย"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q144",
+    "question": "เมื่อปิดงานพัสดุ (Close Procurement) ควรมีกิจกรรมใดประกอบ",
+    "choices": {
+      "a": "ยุติสัญญาและบันทึกปิดงานพัสดุให้ครบถ้วน",
+      "b": "ต่อสัญญาโดยอัตโนมัติ",
+      "c": "โอนงบประมาณไปปีถัดไปทันที",
+      "d": "เปลี่ยนผู้ขายโดยไม่ต้องบันทึก"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q145",
+    "question": "ข้อใด 'ไม่ใช่' วัตถุประสงค์ของเอกสารโครงการตามสไลด์",
+    "choices": {
+      "a": "ใช้อ้างอิงและสื่อสาร",
+      "b": "เป็นหลักฐานและติดตาม/ตรวจสอบ",
+      "c": "สร้างค่าใช้จ่ายให้มากที่สุด",
+      "d": "แสดงข้อมูลค่าใช้จ่ายโครงการ"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q146",
+    "question": "ตัวอย่าง Project Documents กลุ่ม Cost ที่ปรากฏในสไลด์คือข้อใด",
+    "choices": {
+      "a": "Activity Cost Estimates, Basis of Estimates, Project Funding Requirements, Cost Forecast",
+      "b": "Scope Statement และ RTM",
+      "c": "SEAM Matrix",
+      "d": "Accepted Deliverables Form"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q147",
+    "question": "ตัวอย่าง Project Documents กลุ่ม Resource ที่สไลด์ยกมา ได้แก่",
+    "choices": {
+      "a": "Project Staff Assignments, Resource Calendars, Team Performance Assessments",
+      "b": "Project Schedule Network Diagram เท่านั้น",
+      "c": "Risk Register และ Risk Report",
+      "d": "Quality Control Measurements อย่างเดียว"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q148",
+    "question": "ข้อใดจัดอยู่ในเอกสารงานพัสดุ (Procurement Documents) ตามตัวอย่างสไลด์",
+    "choices": {
+      "a": "Procurement Statement of Work, Procurement Contract, Closed Procurements",
+      "b": "Project Charter และ Final Report",
+      "c": "WBS Dictionary",
+      "d": "Test Plan"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q149",
+    "question": "“Final Report” ใน Close Project or Phase โดยแก่นควรครอบคลุมอะไร",
+    "choices": {
+      "a": "เฉพาะสรุปงบประมาณ",
+      "b": "สรุปผลการบรรลุวัตถุประสงค์ ผลการดำเนินงานตามเกณฑ์ และบทเรียนสำคัญเพื่ออัปเดต OPA",
+      "c": "รายการวันลาพักร้อนของทีม",
+      "d": "คำสั่งโยกย้ายบุคลากร"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q150",
+    "question": "เมื่อส่งมอบสิ่งส่งมอบแล้ว ขั้นตอนใดสะท้อนการโอนผลลัพธ์ไปยัง Operation/Customer ตามสไลด์",
+    "choices": {
+      "a": "Final product/service/result transition",
+      "b": "Change Log Update",
+      "c": "Milestone List Update",
+      "d": "Work Performance Data Submission"
+    },
+    "answer": "a"
+  }
+]
