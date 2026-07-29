@@ -113,7 +113,7 @@
       async function loadQuiz() {
         try {
           // const response = await fetch("present.json");
-          const response = await fetch("itpm.json");
+          const response = await fetch("huawei.json");
           if (!response.ok)
             throw new Error(`HTTP error! status: ${response.status}`);
           const allQuestions = await response.json();

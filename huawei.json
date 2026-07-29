@@ -1,0 +1,552 @@
+[
+  {
+    "id": "q1",
+    "question": "Which of the following describes the relationship between Regions and Availability Zones (AZs) in Huawei Cloud?",
+    "choices": {
+      "a": "One Region contains multiple AZs.",
+      "b": "One AZ contains multiple Regions.",
+      "c": "Regions and AZs are exactly the same concept.",
+      "d": "Regions are logical, while AZs are physical hardware."
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q2",
+    "question": "A user needs to run a high-performance, non-virtualized database that requires dedicated hardware for strict compliance. Which Huawei Cloud service is most suitable?",
+    "choices": {
+      "a": "Elastic Cloud Server (ECS)",
+      "b": "Bare Metal Server (BMS)",
+      "c": "Dedicated Host (DeH)",
+      "d": "Auto Scaling (AS)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q3",
+    "question": "Which ECS billing mode is most cost-effective for a batch processing task that can be interrupted and has no specific completion time?",
+    "choices": {
+      "a": "Yearly/Monthly",
+      "b": "Pay-per-use",
+      "c": "Spot Price",
+      "d": "Reserved Instance"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q4",
+    "question": "What is the primary function of the Image Management Service (IMS)?",
+    "choices": {
+      "a": "Editing and storing photos.",
+      "b": "Creating, storing, and managing ECS and BMS images.",
+      "c": "Managing Docker container images.",
+      "d": "Taking automated backups of EVS disks."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q5",
+    "question": "Which EVS (Elastic Volume Service) disk type provides the highest performance and lowest latency for I/O-intensive database applications?",
+    "choices": {
+      "a": "General Purpose SSD",
+      "b": "Extreme SSD",
+      "c": "High I/O",
+      "d": "Ultra-high I/O"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q6",
+    "question": "In OBS (Object Storage Service), which storage class is designed for data that is accessed less than once a year and requires a restoration time of hours?",
+    "choices": {
+      "a": "Standard",
+      "b": "Infrequent Access",
+      "c": "Archive",
+      "d": "Deep Archive"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q7",
+    "question": "What happens by default if an ECS instance is deleted without explicitly detaching its attached Pay-per-use EVS data disk first (assuming 'Delete with Instance' was unchecked during creation)?",
+    "choices": {
+      "a": "The disk is automatically deleted to save costs.",
+      "b": "The disk remains in the account and continues to be billed.",
+      "c": "The disk is converted to an OBS bucket.",
+      "d": "The disk goes into a 'Suspended' state."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q8",
+    "question": "Which network service provides a dedicated, highly reliable, and secure physical connection from an on-premises data center to a Huawei Cloud VPC?",
+    "choices": {
+      "a": "Virtual Private Network (VPN)",
+      "b": "Direct Connect (DC)",
+      "c": "VPC Peering",
+      "d": "NAT Gateway"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q9",
+    "question": "Which of the following components is required to allow multiple ECS instances in a private subnet (without EIPs) to access the internet securely?",
+    "choices": {
+      "a": "Internet Gateway (IGW)",
+      "b": "VPC Endpoint",
+      "c": "NAT Gateway (SNAT)",
+      "d": "Elastic Load Balancer (ELB)"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q10",
+    "question": "Which Huawei Cloud service acts as a virtual firewall for an ECS, controlling inbound and outbound traffic at the instance level based on rules?",
+    "choices": {
+      "a": "Web Application Firewall (WAF)",
+      "b": "Network ACL",
+      "c": "Security Group",
+      "d": "Anti-DDoS"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q11",
+    "question": "A user wants to distribute traffic among multiple backend servers, ensuring that requests from the same client IP address are always routed to the same backend server. Which ELB algorithm should they use?",
+    "choices": {
+      "a": "Round Robin",
+      "b": "Weighted Round Robin",
+      "c": "Least Connections",
+      "d": "Source IP Hash"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q12",
+    "question": "Which of the following databases is an enterprise-class, distributed relational database developed internally by Huawei?",
+    "choices": {
+      "a": "RDS for MySQL",
+      "b": "GaussDB",
+      "c": "DocumentDB",
+      "d": "Redis"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q13",
+    "question": "Which RDS feature allows for the automatic, synchronous replication of data to a standby instance in a different AZ to ensure high availability?",
+    "choices": {
+      "a": "Read Replica",
+      "b": "Automated Backup",
+      "c": "Multi-AZ Deployment (Primary/Standby)",
+      "d": "Database Migration Service (DRS)"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q14",
+    "question": "What is the primary function of the Cloud Container Engine (CCE)?",
+    "choices": {
+      "a": "Managing traditional virtual machines.",
+      "b": "Providing serverless function execution.",
+      "c": "Creating and managing highly scalable Kubernetes clusters.",
+      "d": "Storing Docker container images securely."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q15",
+    "question": "Which Huawei Cloud service is used as a secure repository to store, manage, and deploy Docker container images?",
+    "choices": {
+      "a": "Image Management Service (IMS)",
+      "b": "Software Repository for Container (SWR)",
+      "c": "Cloud Container Instance (CCI)",
+      "d": "Object Storage Service (OBS)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q16",
+    "question": "In Identity and Access Management (IAM), which entity is used to group users together to assign the same permissions to all members simultaneously?",
+    "choices": {
+      "a": "IAM Role",
+      "b": "IAM Policy",
+      "c": "User Group",
+      "d": "Agency"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q17",
+    "question": "Which service allows you to view operational logs, track API calls, and determine 'who did what, when, and from where' on your cloud resources for auditing purposes?",
+    "choices": {
+      "a": "CloudEye",
+      "b": "Cloud Trace Service (CTS)",
+      "c": "Log Tank Service (LTS)",
+      "d": "Host Security Service (HSS)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q18",
+    "question": "What is the main purpose of CloudEye in Huawei Cloud?",
+    "choices": {
+      "a": "To visually inspect physical data centers.",
+      "b": "To provide a centralized platform for resource monitoring, metric collection, and setting alarms.",
+      "c": "To scan ECS instances for malware and vulnerabilities.",
+      "d": "To manage identity and access control."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q19",
+    "question": "Which security service is specifically designed to inspect HTTP/HTTPS traffic and protect web applications from common exploits like SQL injection and Cross-Site Scripting (XSS)?",
+    "choices": {
+      "a": "Anti-DDoS",
+      "b": "Host Security Service (HSS)",
+      "c": "Web Application Firewall (WAF)",
+      "d": "Database Security Service (DBSS)"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q20",
+    "question": "Which service provides a centralized management console for creating policies to automatically backup and recover ECS instances, EVS disks, and BMS servers?",
+    "choices": {
+      "a": "Cloud Backup and Recovery (CBR)",
+      "b": "Object Storage Service (OBS)",
+      "c": "Volume Backup Service (VBS)",
+      "d": "Cloud Server Backup Service (CSBS)"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q21",
+    "question": "To connect two different VPCs within the same Huawei Cloud region so that resources in them can communicate using private IP addresses, what should be created?",
+    "choices": {
+      "a": "Virtual Private Network (VPN)",
+      "b": "Direct Connect",
+      "c": "VPC Peering",
+      "d": "NAT Gateway"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q22",
+    "question": "Which component of Auto Scaling (AS) defines the trigger conditions for scaling actions (e.g., scale up when CPU usage > 80% or at a specific time of day)?",
+    "choices": {
+      "a": "AS Configuration",
+      "b": "AS Group",
+      "c": "AS Policy",
+      "d": "AS Instance"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q23",
+    "question": "A user needs to migrate a massive amount (100 TB) of offline data from their local data center to Huawei Cloud OBS quickly, and their internet bandwidth is limited. Which service is most appropriate?",
+    "choices": {
+      "a": "Cloud Data Migration (CDM)",
+      "b": "Data Express Service (DES)",
+      "c": "Object Storage Migration Service (OMS)",
+      "d": "Virtual Private Network (VPN)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q24",
+    "question": "What is the primary purpose of the Host Security Service (HSS)?",
+    "choices": {
+      "a": "Protecting the network perimeter from DDoS attacks.",
+      "b": "Providing host-level protection, including vulnerability scanning, intrusion detection, and OS security for ECS and BMS.",
+      "c": "Securing web applications from SQL injection.",
+      "d": "Encrypting data at rest on EVS disks."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q25",
+    "question": "According to the Huawei Cloud shared responsibility model, which of the following tasks is entirely the responsibility of the customer?",
+    "choices": {
+      "a": "Maintaining the physical security of the data center.",
+      "b": "Patching the underlying hypervisor software.",
+      "c": "Managing application data security and setting access permissions.",
+      "d": "Maintaining the hardware infrastructure of the cloud platform."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q26",
+    "question": "Which service acts as a pub/sub messaging system and is commonly used for sending automated email or SMS notifications triggered by CloudEye alarms?",
+    "choices": {
+      "a": "Distributed Message Service (DMS)",
+      "b": "Simple Message Notification (SMN)",
+      "c": "API Gateway",
+      "d": "FunctionGraph"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q27",
+    "question": "What is the main function of a 'VPC Endpoint' in Huawei Cloud?",
+    "choices": {
+      "a": "Connecting two VPCs together.",
+      "b": "Providing an entry point from the public internet into a VPC.",
+      "c": "Allowing instances in a VPC to securely access Huawei Cloud services (like OBS) over the internal private network, without needing a public IP.",
+      "d": "Acting as a bastion host for secure SSH access."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q28",
+    "question": "Which RDS database engine option is an open-source object-relational database management system known for its strict SQL compliance and extensibility?",
+    "choices": {
+      "a": "RDS for MySQL",
+      "b": "RDS for PostgreSQL",
+      "c": "RDS for SQL Server",
+      "d": "GaussDB(for Mongo)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q29",
+    "question": "What is the maximum number of Availability Zones that a single, standard ECS instance can physically reside in at the exact same time?",
+    "choices": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Unlimited within a region"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q30",
+    "question": "Which Huawei Cloud service is a 'Serverless' computing platform that allows users to run event-driven code snippets without provisioning or managing any underlying servers?",
+    "choices": {
+      "a": "Elastic Cloud Server (ECS)",
+      "b": "Cloud Container Engine (CCE)",
+      "c": "FunctionGraph",
+      "d": "ServiceStage"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q31",
+    "question": "What is the primary benefit of creating and using a 'Shared' EVS disk?",
+    "choices": {
+      "a": "It can be accessed by instances across different Regions.",
+      "b": "It provides built-in file sharing protocols like NFS or SMB.",
+      "c": "It can be attached to multiple ECS instances simultaneously within the same AZ, typically for use in clustered applications.",
+      "d": "It automatically backs up data to OBS."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q32",
+    "question": "Which service caches static web content at edge locations worldwide to accelerate website access speeds for global users?",
+    "choices": {
+      "a": "Elastic Load Balance (ELB)",
+      "b": "Content Delivery Network (CDN)",
+      "c": "VPC Peering",
+      "d": "Direct Connect"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q33",
+    "question": "Which of the following is NOT a valid disk type for Elastic Volume Service (EVS) in Huawei Cloud?",
+    "choices": {
+      "a": "High I/O",
+      "b": "Ultra-high I/O",
+      "c": "Standard SATA",
+      "d": "General Purpose SSD"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q34",
+    "question": "When configuring a Security Group rule for an ECS, which of the following parameters is NOT required?",
+    "choices": {
+      "a": "Protocol (e.g., TCP, UDP)",
+      "b": "Port range",
+      "c": "Source or Destination IP address/CIDR",
+      "d": "The specific MAC address of the requester"
+    },
+    "answer": "d"
+  },
+  {
+    "id": "q35",
+    "question": "Which tool or service is typically used to migrate an existing on-premises virtual machine (like VMware) directly to an ECS instance on Huawei Cloud?",
+    "choices": {
+      "a": "Data Express Service (DES)",
+      "b": "Server Migration Service (SMS)",
+      "c": "Database Migration Service (DRS)",
+      "d": "Cloud Backup and Recovery (CBR)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q36",
+    "question": "What is the purpose of an Elastic IP (EIP)?",
+    "choices": {
+      "a": "To provide a permanent, private IP address within a VPC subnet.",
+      "b": "To provide a static, public IPv4 address that can be dynamically bound to or unbound from resources like ECS or NAT Gateways.",
+      "c": "To encrypt traffic between two VPCs.",
+      "d": "To balance traffic across multiple regions."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q37",
+    "question": "Which IAM concept allows you to grant a specific Huawei Cloud service (like ECS) the temporary permission to access another service (like OBS) securely, without embedding access keys in code?",
+    "choices": {
+      "a": "IAM User Group",
+      "b": "IAM Agency (Role)",
+      "c": "Access Key (AK/SK)",
+      "d": "Security Token Service (STS)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q38",
+    "question": "You want to run a containerized application without managing the underlying Kubernetes cluster nodes yourself (a serverless container experience). Which service is the best fit?",
+    "choices": {
+      "a": "Cloud Container Engine (CCE)",
+      "b": "Cloud Container Instance (CCI)",
+      "c": "Elastic Cloud Server (ECS)",
+      "d": "FunctionGraph"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q39",
+    "question": "Which Huawei Cloud storage service is designed specifically for providing scalable, shared file storage that can be accessed by multiple ECS instances using standard protocols like NFS or CIFS?",
+    "choices": {
+      "a": "Elastic Volume Service (EVS)",
+      "b": "Object Storage Service (OBS)",
+      "c": "Scalable File Service (SFS)",
+      "d": "Cloud Backup and Recovery (CBR)"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q40",
+    "question": "In Auto Scaling, what does an 'AS Configuration' primarily define?",
+    "choices": {
+      "a": "The maximum and minimum number of instances in the group.",
+      "b": "The triggers for scaling out or scaling in.",
+      "c": "The template for the new instances to be created (e.g., ECS flavor, image, disk type).",
+      "d": "The specific ELB to attach the instances to."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q41",
+    "question": "Which service helps protect your applications against large-scale distributed denial-of-service (DDoS) attacks at the network layer?",
+    "choices": {
+      "a": "Web Application Firewall (WAF)",
+      "b": "Anti-DDoS",
+      "c": "Host Security Service (HSS)",
+      "d": "Security Group"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q42",
+    "question": "Which Huawei Cloud service provides a managed, in-memory data store, often used as a cache to improve application performance, and is compatible with open-source Redis?",
+    "choices": {
+      "a": "RDS for MySQL",
+      "b": "GaussDB",
+      "c": "Distributed Cache Service (DCS)",
+      "d": "DocumentDB"
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q43",
+    "question": "What is the key difference between a Security Group and a Network ACL in a VPC?",
+    "choices": {
+      "a": "Security Groups are stateless; Network ACLs are stateful.",
+      "b": "Security Groups operate at the subnet level; Network ACLs operate at the instance (vNIC) level.",
+      "c": "Security Groups operate at the instance (vNIC) level; Network ACLs operate at the subnet level.",
+      "d": "Security Groups cost extra; Network ACLs are free."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q44",
+    "question": "When creating an OBS bucket, which characteristic is true regarding the bucket name?",
+    "choices": {
+      "a": "It must be unique only within your own account.",
+      "b": "It must be unique only within the specific Region where it is created.",
+      "c": "It must be globally unique across all Huawei Cloud users and regions.",
+      "d": "It can be duplicated if the buckets are in different storage classes."
+    },
+    "answer": "c"
+  },
+  {
+    "id": "q45",
+    "question": "Which service is best suited for managing and automating the CI/CD (Continuous Integration/Continuous Deployment) pipeline on Huawei Cloud?",
+    "choices": {
+      "a": "CodeArts (formerly DevCloud)",
+      "b": "Cloud Container Engine (CCE)",
+      "c": "Software Repository for Container (SWR)",
+      "d": "Application Operations Management (AOM)"
+    },
+    "answer": "a"
+  },
+  {
+    "id": "q46",
+    "question": "If you want to grant a third-party application programmatic access to your Huawei Cloud resources, what authentication method is generally most secure and appropriate?",
+    "choices": {
+      "a": "Sharing your root account username and password.",
+      "b": "Creating an IAM User and providing the Access Key (AK) and Secret Access Key (SK).",
+      "c": "Using a VPC Endpoint.",
+      "d": "Disabling IAM temporarily."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q47",
+    "question": "In the context of Elastic Load Balance (ELB), what is a 'Health Check' used for?",
+    "choices": {
+      "a": "To monitor the CPU usage of the load balancer itself.",
+      "b": "To periodically verify if the backend servers (e.g., ECS instances) are running normally and can process requests.",
+      "c": "To scan incoming traffic for viruses.",
+      "d": "To check the billing status of the backend servers."
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q48",
+    "question": "Which database service on Huawei Cloud is a managed NoSQL document database compatible with MongoDB?",
+    "choices": {
+      "a": "RDS for MySQL",
+      "b": "Document Database Service (DDS)",
+      "c": "Distributed Cache Service (DCS)",
+      "d": "GaussDB(for Redis)"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q49",
+    "question": "A company wants to decouple its microservices by using a highly available message queue. Which service should they choose?",
+    "choices": {
+      "a": "Simple Message Notification (SMN)",
+      "b": "Distributed Message Service (DMS) for Kafka/RabbitMQ",
+      "c": "API Gateway",
+      "d": "VPC Peering"
+    },
+    "answer": "b"
+  },
+  {
+    "id": "q50",
+    "question": "What is the primary advantage of using a Multi-AZ deployment for an application deployed on ECS instances?",
+    "choices": {
+      "a": "It reduces the cost of the ECS instances.",
+      "b": "It provides fault tolerance and high availability if a physical data center (AZ) fails.",
+      "c": "It automatically scales the number of instances based on traffic.",
+      "d": "It provides better protection against application-layer attacks like SQL injection."
+    },
+    "answer": "b"
+  }
+]
